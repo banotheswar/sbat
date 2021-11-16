@@ -1,0 +1,139 @@
+INFO - 2021-09-27 04:20:45 --> Token error: Firebase\JWT\ExpiredException: Expired token in C:\xampp\htdocs\sbatMatrimony\server\vendor\firebase\php-jwt\src\JWT.php:149
+Stack trace:
+#0 C:\xampp\htdocs\sbatMatrimony\server\app\Libraries\Apiserver.php(32): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1Q...', 'NklOUDFSNThVUXV...', Array)
+#1 C:\xampp\htdocs\sbatMatrimony\server\app\Controllers\RestApiBaseController.php(25): App\Libraries\Apiserver->validateToken('eyJ0eXAiOiJKV1Q...')
+#2 C:\xampp\htdocs\sbatMatrimony\server\app\Controllers\Profile.php(19): App\Controllers\RestApiBaseController->__construct()
+#3 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(908): App\Controllers\Profile->__construct()
+#4 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#5 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\sbatMatrimony\server\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+INFO - 2021-09-27 04:20:54 --> Token error: UnexpectedValueException: Wrong number of segments in C:\xampp\htdocs\sbatMatrimony\server\vendor\firebase\php-jwt\src\JWT.php:88
+Stack trace:
+#0 C:\xampp\htdocs\sbatMatrimony\server\app\Libraries\Apiserver.php(32): Firebase\JWT\JWT::decode('null', 'NklOUDFSNThVUXV...', Array)
+#1 C:\xampp\htdocs\sbatMatrimony\server\app\Controllers\RestApiBaseController.php(25): App\Libraries\Apiserver->validateToken('null')
+#2 C:\xampp\htdocs\sbatMatrimony\server\app\Controllers\Profile.php(19): App\Controllers\RestApiBaseController->__construct()
+#3 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(908): App\Controllers\Profile->__construct()
+#4 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#5 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\sbatMatrimony\server\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+INFO - 2021-09-27 05:43:51 --> Token error: Firebase\JWT\ExpiredException: Expired token in C:\xampp\htdocs\sbatMatrimony\server\vendor\firebase\php-jwt\src\JWT.php:149
+Stack trace:
+#0 C:\xampp\htdocs\sbatMatrimony\server\app\Libraries\Apiserver.php(32): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1Q...', 'NklOUDFSNThVUXV...', Array)
+#1 C:\xampp\htdocs\sbatMatrimony\server\app\Controllers\RestApiBaseController.php(25): App\Libraries\Apiserver->validateToken('eyJ0eXAiOiJKV1Q...')
+#2 C:\xampp\htdocs\sbatMatrimony\server\app\Controllers\Profile.php(19): App\Controllers\RestApiBaseController->__construct()
+#3 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(908): App\Controllers\Profile->__construct()
+#4 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#5 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\sbatMatrimony\server\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+INFO - 2021-09-27 05:43:56 --> Token error: UnexpectedValueException: Wrong number of segments in C:\xampp\htdocs\sbatMatrimony\server\vendor\firebase\php-jwt\src\JWT.php:88
+Stack trace:
+#0 C:\xampp\htdocs\sbatMatrimony\server\app\Libraries\Apiserver.php(32): Firebase\JWT\JWT::decode('null', 'NklOUDFSNThVUXV...', Array)
+#1 C:\xampp\htdocs\sbatMatrimony\server\app\Controllers\RestApiBaseController.php(25): App\Libraries\Apiserver->validateToken('null')
+#2 C:\xampp\htdocs\sbatMatrimony\server\app\Controllers\Profile.php(19): App\Controllers\RestApiBaseController->__construct()
+#3 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(908): App\Controllers\Profile->__construct()
+#4 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#5 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\sbatMatrimony\server\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+INFO - 2021-09-27 06:26:40 --> Token error: Firebase\JWT\ExpiredException: Expired token in C:\xampp\htdocs\sbatMatrimony\server\vendor\firebase\php-jwt\src\JWT.php:149
+Stack trace:
+#0 C:\xampp\htdocs\sbatMatrimony\server\app\Libraries\Apiserver.php(32): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1Q...', 'NklOUDFSNThVUXV...', Array)
+#1 C:\xampp\htdocs\sbatMatrimony\server\app\Controllers\RestApiBaseController.php(25): App\Libraries\Apiserver->validateToken('eyJ0eXAiOiJKV1Q...')
+#2 C:\xampp\htdocs\sbatMatrimony\server\app\Controllers\Profile.php(19): App\Controllers\RestApiBaseController->__construct()
+#3 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(908): App\Controllers\Profile->__construct()
+#4 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#5 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\sbatMatrimony\server\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+INFO - 2021-09-27 06:26:50 --> Token error: Firebase\JWT\ExpiredException: Expired token in C:\xampp\htdocs\sbatMatrimony\server\vendor\firebase\php-jwt\src\JWT.php:149
+Stack trace:
+#0 C:\xampp\htdocs\sbatMatrimony\server\app\Libraries\Apiserver.php(32): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1Q...', 'NklOUDFSNThVUXV...', Array)
+#1 C:\xampp\htdocs\sbatMatrimony\server\app\Controllers\RestApiBaseController.php(25): App\Libraries\Apiserver->validateToken('eyJ0eXAiOiJKV1Q...')
+#2 C:\xampp\htdocs\sbatMatrimony\server\app\Controllers\Profile.php(19): App\Controllers\RestApiBaseController->__construct()
+#3 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(908): App\Controllers\Profile->__construct()
+#4 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#5 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\sbatMatrimony\server\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+INFO - 2021-09-27 06:44:18 --> Token error: Firebase\JWT\ExpiredException: Expired token in C:\xampp\htdocs\sbatMatrimony\server\vendor\firebase\php-jwt\src\JWT.php:149
+Stack trace:
+#0 C:\xampp\htdocs\sbatMatrimony\server\app\Libraries\Apiserver.php(32): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1Q...', 'NklOUDFSNThVUXV...', Array)
+#1 C:\xampp\htdocs\sbatMatrimony\server\app\Controllers\RestApiBaseController.php(25): App\Libraries\Apiserver->validateToken('eyJ0eXAiOiJKV1Q...')
+#2 C:\xampp\htdocs\sbatMatrimony\server\app\Controllers\Profile.php(19): App\Controllers\RestApiBaseController->__construct()
+#3 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(908): App\Controllers\Profile->__construct()
+#4 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#5 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\sbatMatrimony\server\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+INFO - 2021-09-27 06:57:13 --> Token error: Firebase\JWT\ExpiredException: Expired token in C:\xampp\htdocs\sbatMatrimony\server\vendor\firebase\php-jwt\src\JWT.php:149
+Stack trace:
+#0 C:\xampp\htdocs\sbatMatrimony\server\app\Libraries\Apiserver.php(32): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1Q...', 'NklOUDFSNThVUXV...', Array)
+#1 C:\xampp\htdocs\sbatMatrimony\server\app\Controllers\RestApiBaseController.php(25): App\Libraries\Apiserver->validateToken('eyJ0eXAiOiJKV1Q...')
+#2 C:\xampp\htdocs\sbatMatrimony\server\app\Controllers\Profile.php(19): App\Controllers\RestApiBaseController->__construct()
+#3 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(908): App\Controllers\Profile->__construct()
+#4 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#5 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\sbatMatrimony\server\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+INFO - 2021-09-27 06:57:20 --> Token error: UnexpectedValueException: Wrong number of segments in C:\xampp\htdocs\sbatMatrimony\server\vendor\firebase\php-jwt\src\JWT.php:88
+Stack trace:
+#0 C:\xampp\htdocs\sbatMatrimony\server\app\Libraries\Apiserver.php(32): Firebase\JWT\JWT::decode('null', 'NklOUDFSNThVUXV...', Array)
+#1 C:\xampp\htdocs\sbatMatrimony\server\app\Controllers\RestApiBaseController.php(25): App\Libraries\Apiserver->validateToken('null')
+#2 C:\xampp\htdocs\sbatMatrimony\server\app\Controllers\Profile.php(19): App\Controllers\RestApiBaseController->__construct()
+#3 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(908): App\Controllers\Profile->__construct()
+#4 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#5 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\sbatMatrimony\server\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+INFO - 2021-09-27 07:12:18 --> Token error: UnexpectedValueException: Wrong number of segments in C:\xampp\htdocs\sbatMatrimony\server\vendor\firebase\php-jwt\src\JWT.php:88
+Stack trace:
+#0 C:\xampp\htdocs\sbatMatrimony\server\app\Libraries\Apiserver.php(32): Firebase\JWT\JWT::decode('null', 'NklOUDFSNThVUXV...', Array)
+#1 C:\xampp\htdocs\sbatMatrimony\server\app\Controllers\RestApiBaseController.php(25): App\Libraries\Apiserver->validateToken('null')
+#2 C:\xampp\htdocs\sbatMatrimony\server\app\Controllers\Profile.php(19): App\Controllers\RestApiBaseController->__construct()
+#3 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(908): App\Controllers\Profile->__construct()
+#4 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#5 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\sbatMatrimony\server\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+INFO - 2021-09-27 07:28:16 --> Token error: UnexpectedValueException: Wrong number of segments in C:\xampp\htdocs\sbatMatrimony\server\vendor\firebase\php-jwt\src\JWT.php:88
+Stack trace:
+#0 C:\xampp\htdocs\sbatMatrimony\server\app\Libraries\Apiserver.php(32): Firebase\JWT\JWT::decode('null', 'NklOUDFSNThVUXV...', Array)
+#1 C:\xampp\htdocs\sbatMatrimony\server\app\Controllers\RestApiBaseController.php(25): App\Libraries\Apiserver->validateToken('null')
+#2 C:\xampp\htdocs\sbatMatrimony\server\app\Controllers\Profile.php(19): App\Controllers\RestApiBaseController->__construct()
+#3 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(908): App\Controllers\Profile->__construct()
+#4 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#5 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\sbatMatrimony\server\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+INFO - 2021-09-27 07:28:52 --> Token error: UnexpectedValueException: Wrong number of segments in C:\xampp\htdocs\sbatMatrimony\server\vendor\firebase\php-jwt\src\JWT.php:88
+Stack trace:
+#0 C:\xampp\htdocs\sbatMatrimony\server\app\Libraries\Apiserver.php(32): Firebase\JWT\JWT::decode('null', 'NklOUDFSNThVUXV...', Array)
+#1 C:\xampp\htdocs\sbatMatrimony\server\app\Controllers\RestApiBaseController.php(25): App\Libraries\Apiserver->validateToken('null')
+#2 C:\xampp\htdocs\sbatMatrimony\server\app\Controllers\Profile.php(19): App\Controllers\RestApiBaseController->__construct()
+#3 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(908): App\Controllers\Profile->__construct()
+#4 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#5 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\sbatMatrimony\server\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+INFO - 2021-09-27 07:29:15 --> Token error: UnexpectedValueException: Wrong number of segments in C:\xampp\htdocs\sbatMatrimony\server\vendor\firebase\php-jwt\src\JWT.php:88
+Stack trace:
+#0 C:\xampp\htdocs\sbatMatrimony\server\app\Libraries\Apiserver.php(32): Firebase\JWT\JWT::decode('null', 'NklOUDFSNThVUXV...', Array)
+#1 C:\xampp\htdocs\sbatMatrimony\server\app\Controllers\RestApiBaseController.php(25): App\Libraries\Apiserver->validateToken('null')
+#2 C:\xampp\htdocs\sbatMatrimony\server\app\Controllers\Profile.php(19): App\Controllers\RestApiBaseController->__construct()
+#3 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(908): App\Controllers\Profile->__construct()
+#4 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#5 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\sbatMatrimony\server\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2021-09-27 07:30:35 --> email sending status
+ERROR - 2021-09-27 07:36:15 --> email sending status
+CRITICAL - 2021-09-27 07:46:45 --> Too few arguments to function App\Controllers\payment::success(), 0 passed in C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php on line 936 and exactly 1 expected
+#0 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(936): App\Controllers\payment->success()
+#1 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\payment))
+#2 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\sbatMatrimony\server\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2021-09-27 07:47:38 --> email sending status

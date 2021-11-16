@@ -1,0 +1,28 @@
+CRITICAL - 2021-09-26 05:49:52 --> Undefined property: stdClass::$id
+#0 C:\xampp\htdocs\sbatMatrimony\server\app\Controllers\Payment.php(49): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 49, Array)
+#1 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(936): App\Controllers\payment->success('R3RXUTM1WWdEc1h...')
+#2 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\payment))
+#3 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\sbatMatrimony\server\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2021-09-26 06:10:48 --> email sending status
+INFO - 2021-09-26 06:58:48 --> Token error: Firebase\JWT\ExpiredException: Expired token in C:\xampp\htdocs\sbatMatrimony\server\vendor\firebase\php-jwt\src\JWT.php:149
+Stack trace:
+#0 C:\xampp\htdocs\sbatMatrimony\server\app\Libraries\Apiserver.php(32): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1Q...', 'NklOUDFSNThVUXV...', Array)
+#1 C:\xampp\htdocs\sbatMatrimony\server\app\Controllers\RestApiBaseController.php(25): App\Libraries\Apiserver->validateToken('eyJ0eXAiOiJKV1Q...')
+#2 C:\xampp\htdocs\sbatMatrimony\server\app\Controllers\Profile.php(19): App\Controllers\RestApiBaseController->__construct()
+#3 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(908): App\Controllers\Profile->__construct()
+#4 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#5 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\sbatMatrimony\server\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+INFO - 2021-09-26 06:58:54 --> Token error: UnexpectedValueException: Wrong number of segments in C:\xampp\htdocs\sbatMatrimony\server\vendor\firebase\php-jwt\src\JWT.php:88
+Stack trace:
+#0 C:\xampp\htdocs\sbatMatrimony\server\app\Libraries\Apiserver.php(32): Firebase\JWT\JWT::decode('null', 'NklOUDFSNThVUXV...', Array)
+#1 C:\xampp\htdocs\sbatMatrimony\server\app\Controllers\RestApiBaseController.php(25): App\Libraries\Apiserver->validateToken('null')
+#2 C:\xampp\htdocs\sbatMatrimony\server\app\Controllers\Profile.php(19): App\Controllers\RestApiBaseController->__construct()
+#3 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(908): App\Controllers\Profile->__construct()
+#4 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#5 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\sbatMatrimony\server\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}

@@ -1,0 +1,1052 @@
+INFO - 2021-10-11 05:08:42 --> Token error: Firebase\JWT\ExpiredException: Expired token in C:\xampp\htdocs\sbatMatrimony\server\vendor\firebase\php-jwt\src\JWT.php:149
+Stack trace:
+#0 C:\xampp\htdocs\sbatMatrimony\server\app\Libraries\Apiserver.php(32): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1Q...', 'NklOUDFSNThVUXV...', Array)
+#1 C:\xampp\htdocs\sbatMatrimony\server\app\Controllers\RestApiBaseController.php(25): App\Libraries\Apiserver->validateToken('eyJ0eXAiOiJKV1Q...')
+#2 C:\xampp\htdocs\sbatMatrimony\server\app\Controllers\Listing.php(19): App\Controllers\RestApiBaseController->__construct()
+#3 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(908): App\Controllers\Listing->__construct()
+#4 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#5 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\sbatMatrimony\server\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+INFO - 2021-10-11 05:56:23 --> Token error: Firebase\JWT\ExpiredException: Expired token in C:\xampp\htdocs\sbatMatrimony\server\vendor\firebase\php-jwt\src\JWT.php:149
+Stack trace:
+#0 C:\xampp\htdocs\sbatMatrimony\server\app\Libraries\Apiserver.php(32): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1Q...', 'NklOUDFSNThVUXV...', Array)
+#1 C:\xampp\htdocs\sbatMatrimony\server\app\Controllers\RestApiBaseController.php(25): App\Libraries\Apiserver->validateToken('eyJ0eXAiOiJKV1Q...')
+#2 C:\xampp\htdocs\sbatMatrimony\server\app\Controllers\Listing.php(19): App\Controllers\RestApiBaseController->__construct()
+#3 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(908): App\Controllers\Listing->__construct()
+#4 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#5 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\sbatMatrimony\server\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+INFO - 2021-10-11 05:57:37 --> Could not fetch profile data: ErrorException: A non-numeric value encountered in C:\xampp\htdocs\sbatMatrimony\server\app\Controllers\Listing.php:167
+Stack trace:
+#0 C:\xampp\htdocs\sbatMatrimony\server\app\Controllers\Listing.php(167): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', 'C:\\xampp\\htdocs...', 167, Array)
+#1 C:\xampp\htdocs\sbatMatrimony\server\app\Controllers\Listing.php(100): App\Controllers\Listing->tagQueryGenerator(Array, '26', 'Male')
+#2 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(936): App\Controllers\Listing->getListByTags()
+#3 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Listing))
+#4 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\sbatMatrimony\server\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+INFO - 2021-10-11 05:57:44 --> Could not fetch profile data: ErrorException: A non-numeric value encountered in C:\xampp\htdocs\sbatMatrimony\server\app\Controllers\Listing.php:167
+Stack trace:
+#0 C:\xampp\htdocs\sbatMatrimony\server\app\Controllers\Listing.php(167): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', 'C:\\xampp\\htdocs...', 167, Array)
+#1 C:\xampp\htdocs\sbatMatrimony\server\app\Controllers\Listing.php(100): App\Controllers\Listing->tagQueryGenerator(Array, '26', 'Male')
+#2 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(936): App\Controllers\Listing->getListByTags()
+#3 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Listing))
+#4 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\sbatMatrimony\server\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+INFO - 2021-10-11 06:03:52 --> Could not fetch profile data: ErrorException: A non-numeric value encountered in C:\xampp\htdocs\sbatMatrimony\server\app\Controllers\Listing.php:167
+Stack trace:
+#0 C:\xampp\htdocs\sbatMatrimony\server\app\Controllers\Listing.php(167): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', 'C:\\xampp\\htdocs...', 167, Array)
+#1 C:\xampp\htdocs\sbatMatrimony\server\app\Controllers\Listing.php(100): App\Controllers\Listing->tagQueryGenerator(Array, '26', 'Male')
+#2 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(936): App\Controllers\Listing->getListByTags()
+#3 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Listing))
+#4 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\sbatMatrimony\server\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+INFO - 2021-10-11 06:05:17 --> Curated Query = SELECT
+                            profile.profileId,
+                            profile.profileNumber,
+                            profile.userId,
+                            profile.firstName,
+                            profile.lastName,
+                            CONCAT(
+                                profile.firstName,
+                                ' ',
+                                profile.lastName
+                            ) AS `fullName`,
+                            profile.gender,
+                            profile.dob,
+                            profile.height,
+                            profile.maritalStatus,
+                            profile.city,
+                            profile.state,
+                            profile.highestEducation,
+                            profile.occupation,
+                            profile.income,
+                            profile.desiredAgeGroup,
+                            profile.desiredHeight,
+                            profile.desiredMaritalStatus,
+                            profile.status,
+                            AGE_FROM_DOB(profile.dob) AS `age`,
+                            artifact.artifactId,
+                            artifact.avatarFileName
+                        FROM
+                            (
+                                profile
+                            LEFT JOIN artifact ON profile.userId = artifact.userId
+                        WHEREAGE_FROM_DOB( profile.dob) >= SPLIT_STR(21-23,'-',1) AND 
+                         AGE_FROM_DOB( profile.dob) <= SPLIT_STR(21-23,'-',2) AND profile.gender != CONCAT(''',Male,''') AND profile.id != 26 AND profile.status = 'ACTIVE'
+ERROR - 2021-10-11 06:05:17 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHEREAGE_FROM_DOB( profile.dob) >= SPLIT_STR(21-23,'-',1) AND 
+                ' at line 32 in C:\xampp\htdocs\sbatMatrimony\server\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\sbatMatrimony\server\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT\r\n       ...')
+#1 C:\xampp\htdocs\sbatMatrimony\server\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT\r\n       ...')
+#2 C:\xampp\htdocs\sbatMatrimony\server\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT\r\n       ...')
+#3 C:\xampp\htdocs\sbatMatrimony\server\app\Controllers\Listing.php(101): CodeIgniter\Database\BaseConnection->query('SELECT\r\n       ...')
+#4 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(936): App\Controllers\Listing->getListByTags()
+#5 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Listing))
+#6 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\sbatMatrimony\server\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+INFO - 2021-10-11 06:05:17 --> Could not fetch profile data: mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHEREAGE_FROM_DOB( profile.dob) >= SPLIT_STR(21-23,'-',1) AND 
+                ' at line 32 in C:\xampp\htdocs\sbatMatrimony\server\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\sbatMatrimony\server\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT\r\n       ...')
+#1 C:\xampp\htdocs\sbatMatrimony\server\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT\r\n       ...')
+#2 C:\xampp\htdocs\sbatMatrimony\server\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT\r\n       ...')
+#3 C:\xampp\htdocs\sbatMatrimony\server\app\Controllers\Listing.php(101): CodeIgniter\Database\BaseConnection->query('SELECT\r\n       ...')
+#4 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(936): App\Controllers\Listing->getListByTags()
+#5 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Listing))
+#6 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\sbatMatrimony\server\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+INFO - 2021-10-11 06:07:46 --> Curated Query = SELECT
+                            profile.profileId,
+                            profile.profileNumber,
+                            profile.userId,
+                            profile.firstName,
+                            profile.lastName,
+                            CONCAT(
+                                profile.firstName,
+                                ' ',
+                                profile.lastName
+                            ) AS `fullName`,
+                            profile.gender,
+                            profile.dob,
+                            profile.height,
+                            profile.maritalStatus,
+                            profile.city,
+                            profile.state,
+                            profile.highestEducation,
+                            profile.occupation,
+                            profile.income,
+                            profile.desiredAgeGroup,
+                            profile.desiredHeight,
+                            profile.desiredMaritalStatus,
+                            profile.status,
+                            AGE_FROM_DOB(profile.dob) AS `age`,
+                            artifact.artifactId,
+                            artifact.avatarFileName
+                        FROM
+                            (
+                                profile
+                            LEFT JOIN artifact ON profile.userId = artifact.userId
+                        WHERE AGE_FROM_DOB( profile.dob) >= SPLIT_STR(21-23,'-',1) AND 
+                         AGE_FROM_DOB( profile.dob) <= SPLIT_STR(21-23,'-',2) AND profile.gender != CONCAT(''',Male,''') AND profile.id != 26 AND profile.status = 'ACTIVE'
+ERROR - 2021-10-11 06:07:46 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE AGE_FROM_DOB( profile.dob) >= SPLIT_STR(21-23,'-',1) AND 
+               ' at line 32 in C:\xampp\htdocs\sbatMatrimony\server\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\sbatMatrimony\server\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT\r\n       ...')
+#1 C:\xampp\htdocs\sbatMatrimony\server\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT\r\n       ...')
+#2 C:\xampp\htdocs\sbatMatrimony\server\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT\r\n       ...')
+#3 C:\xampp\htdocs\sbatMatrimony\server\app\Controllers\Listing.php(101): CodeIgniter\Database\BaseConnection->query('SELECT\r\n       ...')
+#4 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(936): App\Controllers\Listing->getListByTags()
+#5 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Listing))
+#6 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\sbatMatrimony\server\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+INFO - 2021-10-11 06:07:46 --> Could not fetch profile data: mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE AGE_FROM_DOB( profile.dob) >= SPLIT_STR(21-23,'-',1) AND 
+               ' at line 32 in C:\xampp\htdocs\sbatMatrimony\server\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\sbatMatrimony\server\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT\r\n       ...')
+#1 C:\xampp\htdocs\sbatMatrimony\server\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT\r\n       ...')
+#2 C:\xampp\htdocs\sbatMatrimony\server\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT\r\n       ...')
+#3 C:\xampp\htdocs\sbatMatrimony\server\app\Controllers\Listing.php(101): CodeIgniter\Database\BaseConnection->query('SELECT\r\n       ...')
+#4 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(936): App\Controllers\Listing->getListByTags()
+#5 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Listing))
+#6 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\sbatMatrimony\server\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+INFO - 2021-10-11 06:21:15 --> Curated Query = SELECT
+                            profile.profileId,
+                            profile.profileNumber,
+                            profile.userId,
+                            profile.firstName,
+                            profile.lastName,
+                            CONCAT(
+                                profile.firstName,
+                                ' ',
+                                profile.lastName
+                            ) AS `fullName`,
+                            profile.gender,
+                            profile.dob,
+                            profile.height,
+                            profile.maritalStatus,
+                            profile.city,
+                            profile.state,
+                            profile.highestEducation,
+                            profile.occupation,
+                            profile.income,
+                            profile.desiredAgeGroup,
+                            profile.desiredHeight,
+                            profile.desiredMaritalStatus,
+                            profile.status,
+                            AGE_FROM_DOB(profile.dob) AS `age`,
+                            artifact.artifactId,
+                            artifact.avatarFileName
+                        FROM
+                            profile
+                        LEFT JOIN artifact ON profile.userId = artifact.userId
+                        WHERE AGE_FROM_DOB( profile.dob) >= SPLIT_STR(21-23,'-',1) AND 
+                         AGE_FROM_DOB( profile.dob) <= SPLIT_STR(21-23,'-',2) AND profile.gender != CONCAT(''',Male,''') AND profile.id != 26 AND profile.status = 'ACTIVE'
+ERROR - 2021-10-11 06:21:15 --> mysqli_sql_exception: Unknown column 'profile.id' in 'where clause' in C:\xampp\htdocs\sbatMatrimony\server\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\sbatMatrimony\server\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT\r\n       ...')
+#1 C:\xampp\htdocs\sbatMatrimony\server\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT\r\n       ...')
+#2 C:\xampp\htdocs\sbatMatrimony\server\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT\r\n       ...')
+#3 C:\xampp\htdocs\sbatMatrimony\server\app\Controllers\Listing.php(101): CodeIgniter\Database\BaseConnection->query('SELECT\r\n       ...')
+#4 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(936): App\Controllers\Listing->getListByTags()
+#5 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Listing))
+#6 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\sbatMatrimony\server\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+INFO - 2021-10-11 06:21:15 --> Could not fetch profile data: mysqli_sql_exception: Unknown column 'profile.id' in 'where clause' in C:\xampp\htdocs\sbatMatrimony\server\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\sbatMatrimony\server\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT\r\n       ...')
+#1 C:\xampp\htdocs\sbatMatrimony\server\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT\r\n       ...')
+#2 C:\xampp\htdocs\sbatMatrimony\server\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT\r\n       ...')
+#3 C:\xampp\htdocs\sbatMatrimony\server\app\Controllers\Listing.php(101): CodeIgniter\Database\BaseConnection->query('SELECT\r\n       ...')
+#4 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(936): App\Controllers\Listing->getListByTags()
+#5 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Listing))
+#6 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\sbatMatrimony\server\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+INFO - 2021-10-11 06:22:53 --> Curated Query = SELECT
+                            profile.profileId,
+                            profile.profileNumber,
+                            profile.userId,
+                            profile.firstName,
+                            profile.lastName,
+                            CONCAT(
+                                profile.firstName,
+                                ' ',
+                                profile.lastName
+                            ) AS `fullName`,
+                            profile.gender,
+                            profile.dob,
+                            profile.height,
+                            profile.maritalStatus,
+                            profile.city,
+                            profile.state,
+                            profile.highestEducation,
+                            profile.occupation,
+                            profile.income,
+                            profile.desiredAgeGroup,
+                            profile.desiredHeight,
+                            profile.desiredMaritalStatus,
+                            profile.status,
+                            AGE_FROM_DOB(profile.dob) AS `age`,
+                            artifact.artifactId,
+                            artifact.avatarFileName
+                        FROM
+                            profile
+                        LEFT JOIN artifact ON profile.userId = artifact.userId
+                        WHERE AGE_FROM_DOB( profile.dob) >= SPLIT_STR(21-23,'-',1) AND 
+                         AGE_FROM_DOB( profile.dob) <= SPLIT_STR(21-23,'-',2) AND  profile.height >= SPLIT_STR(40-50,'-',1) AND 
+                        profile.height <= SPLIT_STR(40-50,'-',2) AND profile.gender != CONCAT(''',Male,''') AND profile.profileId != 26 AND profile.status = 'ACTIVE'
+INFO - 2021-10-11 06:30:13 --> Curated Query = SELECT
+                            profile.profileId,
+                            profile.profileNumber,
+                            profile.userId,
+                            profile.firstName,
+                            profile.lastName,
+                            CONCAT(
+                                profile.firstName,
+                                ' ',
+                                profile.lastName
+                            ) AS `fullName`,
+                            profile.gender,
+                            profile.dob,
+                            profile.height,
+                            profile.maritalStatus,
+                            profile.city,
+                            profile.state,
+                            profile.highestEducation,
+                            profile.occupation,
+                            profile.income,
+                            profile.desiredAgeGroup,
+                            profile.desiredHeight,
+                            profile.desiredMaritalStatus,
+                            profile.status,
+                            AGE_FROM_DOB(profile.dob) AS `age`,
+                            artifact.artifactId,
+                            artifact.avatarFileName
+                        FROM
+                            profile
+                        LEFT JOIN artifact ON profile.userId = artifact.userId
+                        WHERE AGE_FROM_DOB( profile.dob) >= SPLIT_STR(21-23,'-',1) AND 
+                         AGE_FROM_DOB( profile.dob) <= SPLIT_STR(21-23,'-',2) AND  profile.maritalStatus IN 
+                        CONCAT('(',Single,Widowed,Divorced,')') AND profile.gender != CONCAT(''',Male,''') AND profile.profileId != 26 AND profile.status = 'ACTIVE'
+ERROR - 2021-10-11 06:30:13 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'CONCAT('(',Single,Widowed,Divorced,')') AND profile.gender != CONCAT(''',Male,''' at line 33 in C:\xampp\htdocs\sbatMatrimony\server\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\sbatMatrimony\server\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT\r\n       ...')
+#1 C:\xampp\htdocs\sbatMatrimony\server\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT\r\n       ...')
+#2 C:\xampp\htdocs\sbatMatrimony\server\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT\r\n       ...')
+#3 C:\xampp\htdocs\sbatMatrimony\server\app\Controllers\Listing.php(101): CodeIgniter\Database\BaseConnection->query('SELECT\r\n       ...')
+#4 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(936): App\Controllers\Listing->getListByTags()
+#5 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Listing))
+#6 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\sbatMatrimony\server\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+INFO - 2021-10-11 06:30:13 --> Could not fetch profile data: mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'CONCAT('(',Single,Widowed,Divorced,')') AND profile.gender != CONCAT(''',Male,''' at line 33 in C:\xampp\htdocs\sbatMatrimony\server\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\sbatMatrimony\server\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT\r\n       ...')
+#1 C:\xampp\htdocs\sbatMatrimony\server\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT\r\n       ...')
+#2 C:\xampp\htdocs\sbatMatrimony\server\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT\r\n       ...')
+#3 C:\xampp\htdocs\sbatMatrimony\server\app\Controllers\Listing.php(101): CodeIgniter\Database\BaseConnection->query('SELECT\r\n       ...')
+#4 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(936): App\Controllers\Listing->getListByTags()
+#5 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Listing))
+#6 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\sbatMatrimony\server\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+INFO - 2021-10-11 06:31:00 --> Curated Query = SELECT
+                            profile.profileId,
+                            profile.profileNumber,
+                            profile.userId,
+                            profile.firstName,
+                            profile.lastName,
+                            CONCAT(
+                                profile.firstName,
+                                ' ',
+                                profile.lastName
+                            ) AS `fullName`,
+                            profile.gender,
+                            profile.dob,
+                            profile.height,
+                            profile.maritalStatus,
+                            profile.city,
+                            profile.state,
+                            profile.highestEducation,
+                            profile.occupation,
+                            profile.income,
+                            profile.desiredAgeGroup,
+                            profile.desiredHeight,
+                            profile.desiredMaritalStatus,
+                            profile.status,
+                            AGE_FROM_DOB(profile.dob) AS `age`,
+                            artifact.artifactId,
+                            artifact.avatarFileName
+                        FROM
+                            profile
+                        LEFT JOIN artifact ON profile.userId = artifact.userId
+                        WHERE AGE_FROM_DOB( profile.dob) >= SPLIT_STR(21-23,'-',1) AND 
+                         AGE_FROM_DOB( profile.dob) <= SPLIT_STR(21-23,'-',2) AND  profile.height >= SPLIT_STR(40-50,'-',1) AND 
+                        profile.height <= SPLIT_STR(40-50,'-',2) AND  profile.maritalStatus IN 
+                        CONCAT('(',Single,Widowed,Divorced,')') AND profile.gender != Male AND profile.profileId != 26 AND profile.status = 'ACTIVE'
+ERROR - 2021-10-11 06:31:00 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'CONCAT('(',Single,Widowed,Divorced,')') AND profile.gender != Male AND profile.p' at line 34 in C:\xampp\htdocs\sbatMatrimony\server\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\sbatMatrimony\server\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT\r\n       ...')
+#1 C:\xampp\htdocs\sbatMatrimony\server\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT\r\n       ...')
+#2 C:\xampp\htdocs\sbatMatrimony\server\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT\r\n       ...')
+#3 C:\xampp\htdocs\sbatMatrimony\server\app\Controllers\Listing.php(101): CodeIgniter\Database\BaseConnection->query('SELECT\r\n       ...')
+#4 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(936): App\Controllers\Listing->getListByTags()
+#5 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Listing))
+#6 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\sbatMatrimony\server\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+INFO - 2021-10-11 06:31:00 --> Could not fetch profile data: mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'CONCAT('(',Single,Widowed,Divorced,')') AND profile.gender != Male AND profile.p' at line 34 in C:\xampp\htdocs\sbatMatrimony\server\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\sbatMatrimony\server\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT\r\n       ...')
+#1 C:\xampp\htdocs\sbatMatrimony\server\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT\r\n       ...')
+#2 C:\xampp\htdocs\sbatMatrimony\server\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT\r\n       ...')
+#3 C:\xampp\htdocs\sbatMatrimony\server\app\Controllers\Listing.php(101): CodeIgniter\Database\BaseConnection->query('SELECT\r\n       ...')
+#4 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(936): App\Controllers\Listing->getListByTags()
+#5 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Listing))
+#6 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\sbatMatrimony\server\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+INFO - 2021-10-11 06:33:49 --> Token error: Firebase\JWT\ExpiredException: Expired token in C:\xampp\htdocs\sbatMatrimony\server\vendor\firebase\php-jwt\src\JWT.php:149
+Stack trace:
+#0 C:\xampp\htdocs\sbatMatrimony\server\app\Libraries\Apiserver.php(32): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1Q...', 'NklOUDFSNThVUXV...', Array)
+#1 C:\xampp\htdocs\sbatMatrimony\server\app\Controllers\RestApiBaseController.php(25): App\Libraries\Apiserver->validateToken('eyJ0eXAiOiJKV1Q...')
+#2 C:\xampp\htdocs\sbatMatrimony\server\app\Controllers\Listing.php(19): App\Controllers\RestApiBaseController->__construct()
+#3 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(908): App\Controllers\Listing->__construct()
+#4 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#5 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\sbatMatrimony\server\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+INFO - 2021-10-11 06:34:13 --> Curated Query = SELECT
+                            profile.profileId,
+                            profile.profileNumber,
+                            profile.userId,
+                            profile.firstName,
+                            profile.lastName,
+                            CONCAT(
+                                profile.firstName,
+                                ' ',
+                                profile.lastName
+                            ) AS `fullName`,
+                            profile.gender,
+                            profile.dob,
+                            profile.height,
+                            profile.maritalStatus,
+                            profile.city,
+                            profile.state,
+                            profile.highestEducation,
+                            profile.occupation,
+                            profile.income,
+                            profile.desiredAgeGroup,
+                            profile.desiredHeight,
+                            profile.desiredMaritalStatus,
+                            profile.status,
+                            AGE_FROM_DOB(profile.dob) AS `age`,
+                            artifact.artifactId,
+                            artifact.avatarFileName
+                        FROM
+                            profile
+                        LEFT JOIN artifact ON profile.userId = artifact.userId
+                        WHERE AGE_FROM_DOB( profile.dob) >= SPLIT_STR(21-23,'-',1) AND 
+                         AGE_FROM_DOB( profile.dob) <= SPLIT_STR(21-23,'-',2) AND  profile.maritalStatus IN 
+                        CONCAT('(',Single,Widowed,Divorced,')') AND profile.gender != CONCAT('"',Male,'"') AND profile.profileId != 26 AND profile.status = 'ACTIVE'
+ERROR - 2021-10-11 06:34:13 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'CONCAT('(',Single,Widowed,Divorced,')') AND profile.gender != CONCAT('"',Male,'"' at line 33 in C:\xampp\htdocs\sbatMatrimony\server\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\sbatMatrimony\server\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT\r\n       ...')
+#1 C:\xampp\htdocs\sbatMatrimony\server\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT\r\n       ...')
+#2 C:\xampp\htdocs\sbatMatrimony\server\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT\r\n       ...')
+#3 C:\xampp\htdocs\sbatMatrimony\server\app\Controllers\Listing.php(101): CodeIgniter\Database\BaseConnection->query('SELECT\r\n       ...')
+#4 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(936): App\Controllers\Listing->getListByTags()
+#5 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Listing))
+#6 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\sbatMatrimony\server\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+INFO - 2021-10-11 06:34:13 --> Could not fetch profile data: mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'CONCAT('(',Single,Widowed,Divorced,')') AND profile.gender != CONCAT('"',Male,'"' at line 33 in C:\xampp\htdocs\sbatMatrimony\server\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\sbatMatrimony\server\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT\r\n       ...')
+#1 C:\xampp\htdocs\sbatMatrimony\server\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT\r\n       ...')
+#2 C:\xampp\htdocs\sbatMatrimony\server\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT\r\n       ...')
+#3 C:\xampp\htdocs\sbatMatrimony\server\app\Controllers\Listing.php(101): CodeIgniter\Database\BaseConnection->query('SELECT\r\n       ...')
+#4 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(936): App\Controllers\Listing->getListByTags()
+#5 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Listing))
+#6 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\sbatMatrimony\server\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+INFO - 2021-10-11 06:36:54 --> Curated Query = SELECT
+                            profile.profileId,
+                            profile.profileNumber,
+                            profile.userId,
+                            profile.firstName,
+                            profile.lastName,
+                            CONCAT(
+                                profile.firstName,
+                                ' ',
+                                profile.lastName
+                            ) AS `fullName`,
+                            profile.gender,
+                            profile.dob,
+                            profile.height,
+                            profile.maritalStatus,
+                            profile.city,
+                            profile.state,
+                            profile.highestEducation,
+                            profile.occupation,
+                            profile.income,
+                            profile.desiredAgeGroup,
+                            profile.desiredHeight,
+                            profile.desiredMaritalStatus,
+                            profile.status,
+                            AGE_FROM_DOB(profile.dob) AS `age`,
+                            artifact.artifactId,
+                            artifact.avatarFileName
+                        FROM
+                            profile
+                        LEFT JOIN artifact ON profile.userId = artifact.userId
+                        WHERE AGE_FROM_DOB( profile.dob) >= SPLIT_STR(21-23,'-',1) AND 
+                         AGE_FROM_DOB( profile.dob) <= SPLIT_STR(21-23,'-',2) AND  profile.height >= SPLIT_STR(40-50,'-',1) AND 
+                        profile.height <= SPLIT_STR(40-50,'-',2) AND  profile.maritalStatus IN 
+                        (Single,Widowed,Divorced) AND profile.gender != 'Male' AND profile.profileId != 26 AND profile.status = 'ACTIVE'
+ERROR - 2021-10-11 06:36:54 --> mysqli_sql_exception: Unknown column 'Single' in 'where clause' in C:\xampp\htdocs\sbatMatrimony\server\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\sbatMatrimony\server\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT\r\n       ...')
+#1 C:\xampp\htdocs\sbatMatrimony\server\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT\r\n       ...')
+#2 C:\xampp\htdocs\sbatMatrimony\server\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT\r\n       ...')
+#3 C:\xampp\htdocs\sbatMatrimony\server\app\Controllers\Listing.php(101): CodeIgniter\Database\BaseConnection->query('SELECT\r\n       ...')
+#4 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(936): App\Controllers\Listing->getListByTags()
+#5 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Listing))
+#6 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\sbatMatrimony\server\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+INFO - 2021-10-11 06:36:54 --> Could not fetch profile data: mysqli_sql_exception: Unknown column 'Single' in 'where clause' in C:\xampp\htdocs\sbatMatrimony\server\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\sbatMatrimony\server\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT\r\n       ...')
+#1 C:\xampp\htdocs\sbatMatrimony\server\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT\r\n       ...')
+#2 C:\xampp\htdocs\sbatMatrimony\server\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT\r\n       ...')
+#3 C:\xampp\htdocs\sbatMatrimony\server\app\Controllers\Listing.php(101): CodeIgniter\Database\BaseConnection->query('SELECT\r\n       ...')
+#4 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(936): App\Controllers\Listing->getListByTags()
+#5 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Listing))
+#6 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\sbatMatrimony\server\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+INFO - 2021-10-11 06:42:02 --> Curated Query = SELECT
+                            profile.profileId,
+                            profile.profileNumber,
+                            profile.userId,
+                            profile.firstName,
+                            profile.lastName,
+                            CONCAT(
+                                profile.firstName,
+                                ' ',
+                                profile.lastName
+                            ) AS `fullName`,
+                            profile.gender,
+                            profile.dob,
+                            profile.height,
+                            profile.maritalStatus,
+                            profile.city,
+                            profile.state,
+                            profile.highestEducation,
+                            profile.occupation,
+                            profile.income,
+                            profile.desiredAgeGroup,
+                            profile.desiredHeight,
+                            profile.desiredMaritalStatus,
+                            profile.status,
+                            AGE_FROM_DOB(profile.dob) AS `age`,
+                            artifact.artifactId,
+                            artifact.avatarFileName
+                        FROM
+                            profile
+                        LEFT JOIN artifact ON profile.userId = artifact.userId
+                        WHERE AGE_FROM_DOB( profile.dob) >= SPLIT_STR(21-23,'-',1) AND 
+                         AGE_FROM_DOB( profile.dob) <= SPLIT_STR(21-23,'-',2) AND  profile.height >= SPLIT_STR(40-50,'-',1) AND 
+                        profile.height <= SPLIT_STR(40-50,'-',2) AND profile.gender != 'Male' AND profile.profileId != 26 AND profile.status = 'ACTIVE'
+INFO - 2021-10-11 06:46:36 --> Curated Query = SELECT
+                            profile.profileId,
+                            profile.profileNumber,
+                            profile.userId,
+                            profile.firstName,
+                            profile.lastName,
+                            CONCAT(
+                                profile.firstName,
+                                ' ',
+                                profile.lastName
+                            ) AS `fullName`,
+                            profile.gender,
+                            profile.dob,
+                            profile.height,
+                            profile.maritalStatus,
+                            profile.city,
+                            profile.state,
+                            profile.highestEducation,
+                            profile.occupation,
+                            profile.income,
+                            profile.desiredAgeGroup,
+                            profile.desiredHeight,
+                            profile.desiredMaritalStatus,
+                            profile.status,
+                            AGE_FROM_DOB(profile.dob) AS `age`,
+                            artifact.artifactId,
+                            artifact.avatarFileName
+                        FROM
+                            profile
+                        LEFT JOIN artifact ON profile.userId = artifact.userId
+                        WHERE AGE_FROM_DOB( profile.dob) >= SPLIT_STR(21-23,'-',1) AND 
+                         AGE_FROM_DOB( profile.dob) <= SPLIT_STR(21-23,'-',2) AND profile.gender != 'Male' AND profile.profileId != 26 AND profile.status = 'ACTIVE'
+INFO - 2021-10-11 06:50:30 --> Curated Query = SELECT
+                            profile.profileId,
+                            profile.profileNumber,
+                            profile.userId,
+                            profile.firstName,
+                            profile.lastName,
+                            CONCAT(
+                                profile.firstName,
+                                ' ',
+                                profile.lastName
+                            ) AS `fullName`,
+                            profile.gender,
+                            profile.dob,
+                            profile.height,
+                            profile.maritalStatus,
+                            profile.city,
+                            profile.state,
+                            profile.highestEducation,
+                            profile.occupation,
+                            profile.income,
+                            profile.desiredAgeGroup,
+                            profile.desiredHeight,
+                            profile.desiredMaritalStatus,
+                            profile.status,
+                            AGE_FROM_DOB(profile.dob) AS `age`,
+                            artifact.artifactId,
+                            artifact.avatarFileName
+                        FROM
+                            profile
+                        LEFT JOIN artifact ON profile.userId = artifact.userId
+                        WHERE AGE_FROM_DOB( profile.dob) >= SPLIT_STR('21-23','-',1) AND 
+                         AGE_FROM_DOB( profile.dob) <= SPLIT_STR('21-23','-',2) AND profile.gender != 'Male' AND profile.profileId != 26 AND profile.status = 'ACTIVE'
+INFO - 2021-10-11 06:50:38 --> Curated Query = SELECT
+                            profile.profileId,
+                            profile.profileNumber,
+                            profile.userId,
+                            profile.firstName,
+                            profile.lastName,
+                            CONCAT(
+                                profile.firstName,
+                                ' ',
+                                profile.lastName
+                            ) AS `fullName`,
+                            profile.gender,
+                            profile.dob,
+                            profile.height,
+                            profile.maritalStatus,
+                            profile.city,
+                            profile.state,
+                            profile.highestEducation,
+                            profile.occupation,
+                            profile.income,
+                            profile.desiredAgeGroup,
+                            profile.desiredHeight,
+                            profile.desiredMaritalStatus,
+                            profile.status,
+                            AGE_FROM_DOB(profile.dob) AS `age`,
+                            artifact.artifactId,
+                            artifact.avatarFileName
+                        FROM
+                            profile
+                        LEFT JOIN artifact ON profile.userId = artifact.userId
+                        WHERE AGE_FROM_DOB( profile.dob) >= SPLIT_STR('21-23','-',1) AND 
+                         AGE_FROM_DOB( profile.dob) <= SPLIT_STR('21-23','-',2) AND profile.gender != 'Male' AND profile.profileId != 26 AND profile.status = 'ACTIVE'
+INFO - 2021-10-11 06:50:42 --> Curated Query = SELECT
+                            profile.profileId,
+                            profile.profileNumber,
+                            profile.userId,
+                            profile.firstName,
+                            profile.lastName,
+                            CONCAT(
+                                profile.firstName,
+                                ' ',
+                                profile.lastName
+                            ) AS `fullName`,
+                            profile.gender,
+                            profile.dob,
+                            profile.height,
+                            profile.maritalStatus,
+                            profile.city,
+                            profile.state,
+                            profile.highestEducation,
+                            profile.occupation,
+                            profile.income,
+                            profile.desiredAgeGroup,
+                            profile.desiredHeight,
+                            profile.desiredMaritalStatus,
+                            profile.status,
+                            AGE_FROM_DOB(profile.dob) AS `age`,
+                            artifact.artifactId,
+                            artifact.avatarFileName
+                        FROM
+                            profile
+                        LEFT JOIN artifact ON profile.userId = artifact.userId
+                        WHERE AGE_FROM_DOB( profile.dob) >= SPLIT_STR('21-23','-',1) AND 
+                         AGE_FROM_DOB( profile.dob) <= SPLIT_STR('21-23','-',2) AND  profile.height >= SPLIT_STR('40-50','-',1) AND 
+                        profile.height <= SPLIT_STR('40-50','-',2) AND profile.gender != 'Male' AND profile.profileId != 26 AND profile.status = 'ACTIVE'
+INFO - 2021-10-11 06:50:48 --> Curated Query = SELECT
+                            profile.profileId,
+                            profile.profileNumber,
+                            profile.userId,
+                            profile.firstName,
+                            profile.lastName,
+                            CONCAT(
+                                profile.firstName,
+                                ' ',
+                                profile.lastName
+                            ) AS `fullName`,
+                            profile.gender,
+                            profile.dob,
+                            profile.height,
+                            profile.maritalStatus,
+                            profile.city,
+                            profile.state,
+                            profile.highestEducation,
+                            profile.occupation,
+                            profile.income,
+                            profile.desiredAgeGroup,
+                            profile.desiredHeight,
+                            profile.desiredMaritalStatus,
+                            profile.status,
+                            AGE_FROM_DOB(profile.dob) AS `age`,
+                            artifact.artifactId,
+                            artifact.avatarFileName
+                        FROM
+                            profile
+                        LEFT JOIN artifact ON profile.userId = artifact.userId
+                        WHERE AGE_FROM_DOB( profile.dob) >= SPLIT_STR('21-23','-',1) AND 
+                         AGE_FROM_DOB( profile.dob) <= SPLIT_STR('21-23','-',2) AND  profile.height >= SPLIT_STR('40-50','-',1) AND 
+                        profile.height <= SPLIT_STR('40-50','-',2) AND  profile.maritalStatus IN 
+                        (Single,Widowed,Divorced) AND profile.gender != 'Male' AND profile.profileId != 26 AND profile.status = 'ACTIVE'
+ERROR - 2021-10-11 06:50:48 --> mysqli_sql_exception: Unknown column 'Single' in 'where clause' in C:\xampp\htdocs\sbatMatrimony\server\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\sbatMatrimony\server\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT\r\n       ...')
+#1 C:\xampp\htdocs\sbatMatrimony\server\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT\r\n       ...')
+#2 C:\xampp\htdocs\sbatMatrimony\server\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT\r\n       ...')
+#3 C:\xampp\htdocs\sbatMatrimony\server\app\Controllers\Listing.php(101): CodeIgniter\Database\BaseConnection->query('SELECT\r\n       ...')
+#4 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(936): App\Controllers\Listing->getListByTags()
+#5 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Listing))
+#6 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\sbatMatrimony\server\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+INFO - 2021-10-11 06:50:48 --> Could not fetch profile data: mysqli_sql_exception: Unknown column 'Single' in 'where clause' in C:\xampp\htdocs\sbatMatrimony\server\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\sbatMatrimony\server\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT\r\n       ...')
+#1 C:\xampp\htdocs\sbatMatrimony\server\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT\r\n       ...')
+#2 C:\xampp\htdocs\sbatMatrimony\server\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT\r\n       ...')
+#3 C:\xampp\htdocs\sbatMatrimony\server\app\Controllers\Listing.php(101): CodeIgniter\Database\BaseConnection->query('SELECT\r\n       ...')
+#4 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(936): App\Controllers\Listing->getListByTags()
+#5 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Listing))
+#6 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\sbatMatrimony\server\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+INFO - 2021-10-11 06:53:31 --> Curated Query = SELECT
+                            profile.profileId,
+                            profile.profileNumber,
+                            profile.userId,
+                            profile.firstName,
+                            profile.lastName,
+                            CONCAT(
+                                profile.firstName,
+                                ' ',
+                                profile.lastName
+                            ) AS `fullName`,
+                            profile.gender,
+                            profile.dob,
+                            profile.height,
+                            profile.maritalStatus,
+                            profile.city,
+                            profile.state,
+                            profile.highestEducation,
+                            profile.occupation,
+                            profile.income,
+                            profile.desiredAgeGroup,
+                            profile.desiredHeight,
+                            profile.desiredMaritalStatus,
+                            profile.status,
+                            AGE_FROM_DOB(profile.dob) AS `age`,
+                            artifact.artifactId,
+                            artifact.avatarFileName
+                        FROM
+                            profile
+                        LEFT JOIN artifact ON profile.userId = artifact.userId
+                        WHERE AGE_FROM_DOB( profile.dob) >= SPLIT_STR('21-23','-',1) AND 
+                         AGE_FROM_DOB( profile.dob) <= SPLIT_STR('21-23','-',2) AND  profile.height >= SPLIT_STR('40-50','-',1) AND 
+                        profile.height <= SPLIT_STR('40-50','-',2) AND profile.gender != 'Male' AND profile.profileId != 26 AND profile.status = 'ACTIVE'
+INFO - 2021-10-11 06:53:37 --> Curated Query = SELECT
+                            profile.profileId,
+                            profile.profileNumber,
+                            profile.userId,
+                            profile.firstName,
+                            profile.lastName,
+                            CONCAT(
+                                profile.firstName,
+                                ' ',
+                                profile.lastName
+                            ) AS `fullName`,
+                            profile.gender,
+                            profile.dob,
+                            profile.height,
+                            profile.maritalStatus,
+                            profile.city,
+                            profile.state,
+                            profile.highestEducation,
+                            profile.occupation,
+                            profile.income,
+                            profile.desiredAgeGroup,
+                            profile.desiredHeight,
+                            profile.desiredMaritalStatus,
+                            profile.status,
+                            AGE_FROM_DOB(profile.dob) AS `age`,
+                            artifact.artifactId,
+                            artifact.avatarFileName
+                        FROM
+                            profile
+                        LEFT JOIN artifact ON profile.userId = artifact.userId
+                        WHERE AGE_FROM_DOB( profile.dob) >= SPLIT_STR('21-23','-',1) AND 
+                         AGE_FROM_DOB( profile.dob) <= SPLIT_STR('21-23','-',2) AND  profile.height >= SPLIT_STR('40-50','-',1) AND 
+                        profile.height <= SPLIT_STR('40-50','-',2) AND 'Single,Widowed,Divorced' 
+                        LIKE CONCAT('%',profile.maritalStatus,'%') AND profile.gender != 'Male' AND profile.profileId != 26 AND profile.status = 'ACTIVE'
+INFO - 2021-10-11 06:56:33 --> Curated Query = SELECT
+                            profile.profileId,
+                            profile.profileNumber,
+                            profile.userId,
+                            profile.firstName,
+                            profile.lastName,
+                            CONCAT(
+                                profile.firstName,
+                                ' ',
+                                profile.lastName
+                            ) AS `fullName`,
+                            profile.gender,
+                            profile.dob,
+                            profile.height,
+                            profile.maritalStatus,
+                            profile.city,
+                            profile.state,
+                            profile.highestEducation,
+                            profile.occupation,
+                            profile.income,
+                            profile.desiredAgeGroup,
+                            profile.desiredHeight,
+                            profile.desiredMaritalStatus,
+                            profile.status,
+                            AGE_FROM_DOB(profile.dob) AS `age`,
+                            artifact.artifactId,
+                            artifact.avatarFileName
+                        FROM
+                            profile
+                        LEFT JOIN artifact ON profile.userId = artifact.userId
+                        WHERE AGE_FROM_DOB( profile.dob) >= SPLIT_STR('21-23','-',1) AND 
+                         AGE_FROM_DOB( profile.dob) <= SPLIT_STR('21-23','-',2) AND  profile.height >= SPLIT_STR('40-50','-',1) AND 
+                        profile.height <= SPLIT_STR('40-50','-',2) AND profile.gender != 'Male' AND profile.profileId != 26 AND profile.status = 'ACTIVE'
+INFO - 2021-10-11 07:01:25 --> Curated Query = SELECT
+                            profile.profileId,
+                            profile.profileNumber,
+                            profile.userId,
+                            profile.firstName,
+                            profile.lastName,
+                            CONCAT(
+                                profile.firstName,
+                                ' ',
+                                profile.lastName
+                            ) AS `fullName`,
+                            profile.gender,
+                            profile.dob,
+                            profile.height,
+                            profile.maritalStatus,
+                            profile.city,
+                            profile.state,
+                            profile.highestEducation,
+                            profile.occupation,
+                            profile.income,
+                            profile.desiredAgeGroup,
+                            profile.desiredHeight,
+                            profile.desiredMaritalStatus,
+                            profile.status,
+                            AGE_FROM_DOB(profile.dob) AS `age`,
+                            artifact.artifactId,
+                            artifact.avatarFileName
+                        FROM
+                            profile
+                        LEFT JOIN artifact ON profile.userId = artifact.userId
+                        WHERE AGE_FROM_DOB( profile.dob) >= SPLIT_STR('21-23','-',1) AND 
+                         AGE_FROM_DOB( profile.dob) <= SPLIT_STR('21-23','-',2) AND  profile.height >= SPLIT_STR('40-50','-',1) AND 
+                        profile.height <= SPLIT_STR('40-50','-',2) AND profile.gender != 'Male' AND profile.profileId != 26 AND profile.status = 'ACTIVE'
+INFO - 2021-10-11 07:01:37 --> Curated Query = SELECT
+                            profile.profileId,
+                            profile.profileNumber,
+                            profile.userId,
+                            profile.firstName,
+                            profile.lastName,
+                            CONCAT(
+                                profile.firstName,
+                                ' ',
+                                profile.lastName
+                            ) AS `fullName`,
+                            profile.gender,
+                            profile.dob,
+                            profile.height,
+                            profile.maritalStatus,
+                            profile.city,
+                            profile.state,
+                            profile.highestEducation,
+                            profile.occupation,
+                            profile.income,
+                            profile.desiredAgeGroup,
+                            profile.desiredHeight,
+                            profile.desiredMaritalStatus,
+                            profile.status,
+                            AGE_FROM_DOB(profile.dob) AS `age`,
+                            artifact.artifactId,
+                            artifact.avatarFileName
+                        FROM
+                            profile
+                        LEFT JOIN artifact ON profile.userId = artifact.userId
+                        WHERE AGE_FROM_DOB( profile.dob) >= SPLIT_STR('21-23','-',1) AND 
+                         AGE_FROM_DOB( profile.dob) <= SPLIT_STR('21-23','-',2) AND  profile.height >= SPLIT_STR('40-50','-',1) AND 
+                        profile.height <= SPLIT_STR('40-50','-',2) AND 'Single,Widowed,Divorced' 
+                        LIKE CONCAT('%',profile.maritalStatus,'%') AND profile.gender != 'Male' AND profile.profileId != 26 AND profile.status = 'ACTIVE'
+INFO - 2021-10-11 07:02:51 --> Curated Query = SELECT
+                            profile.profileId,
+                            profile.profileNumber,
+                            profile.userId,
+                            profile.firstName,
+                            profile.lastName,
+                            CONCAT(
+                                profile.firstName,
+                                ' ',
+                                profile.lastName
+                            ) AS `fullName`,
+                            profile.gender,
+                            profile.dob,
+                            profile.height,
+                            profile.maritalStatus,
+                            profile.city,
+                            profile.state,
+                            profile.highestEducation,
+                            profile.occupation,
+                            profile.income,
+                            profile.desiredAgeGroup,
+                            profile.desiredHeight,
+                            profile.desiredMaritalStatus,
+                            profile.status,
+                            AGE_FROM_DOB(profile.dob) AS `age`,
+                            artifact.artifactId,
+                            artifact.avatarFileName
+                        FROM
+                            profile
+                        LEFT JOIN artifact ON profile.userId = artifact.userId
+                        WHERE AGE_FROM_DOB( profile.dob) >= SPLIT_STR('21-23','-',1) AND 
+                         AGE_FROM_DOB( profile.dob) <= SPLIT_STR('21-23','-',2) AND  profile.height >= SPLIT_STR('40-50','-',1) AND 
+                        profile.height <= SPLIT_STR('40-50','-',2) AND profile.gender != 'Male' AND profile.profileId != 26 AND profile.status = 'ACTIVE'
+INFO - 2021-10-11 07:02:55 --> Curated Query = SELECT
+                            profile.profileId,
+                            profile.profileNumber,
+                            profile.userId,
+                            profile.firstName,
+                            profile.lastName,
+                            CONCAT(
+                                profile.firstName,
+                                ' ',
+                                profile.lastName
+                            ) AS `fullName`,
+                            profile.gender,
+                            profile.dob,
+                            profile.height,
+                            profile.maritalStatus,
+                            profile.city,
+                            profile.state,
+                            profile.highestEducation,
+                            profile.occupation,
+                            profile.income,
+                            profile.desiredAgeGroup,
+                            profile.desiredHeight,
+                            profile.desiredMaritalStatus,
+                            profile.status,
+                            AGE_FROM_DOB(profile.dob) AS `age`,
+                            artifact.artifactId,
+                            artifact.avatarFileName
+                        FROM
+                            profile
+                        LEFT JOIN artifact ON profile.userId = artifact.userId
+                        WHERE AGE_FROM_DOB( profile.dob) >= SPLIT_STR('21-23','-',1) AND 
+                         AGE_FROM_DOB( profile.dob) <= SPLIT_STR('21-23','-',2) AND  profile.height >= SPLIT_STR('40-50','-',1) AND 
+                        profile.height <= SPLIT_STR('40-50','-',2) AND 'Single,Widowed,Divorced' 
+                        LIKE CONCAT('%',profile.maritalStatus,'%') AND profile.gender != 'Male' AND profile.profileId != 26 AND profile.status = 'ACTIVE'
+INFO - 2021-10-11 07:11:46 --> Token error: Firebase\JWT\ExpiredException: Expired token in C:\xampp\htdocs\sbatMatrimony\server\vendor\firebase\php-jwt\src\JWT.php:149
+Stack trace:
+#0 C:\xampp\htdocs\sbatMatrimony\server\app\Libraries\Apiserver.php(32): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1Q...', 'NklOUDFSNThVUXV...', Array)
+#1 C:\xampp\htdocs\sbatMatrimony\server\app\Controllers\RestApiBaseController.php(25): App\Libraries\Apiserver->validateToken('eyJ0eXAiOiJKV1Q...')
+#2 C:\xampp\htdocs\sbatMatrimony\server\app\Controllers\Listing.php(19): App\Controllers\RestApiBaseController->__construct()
+#3 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(908): App\Controllers\Listing->__construct()
+#4 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#5 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\sbatMatrimony\server\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+INFO - 2021-10-11 07:12:05 --> Curated Query = SELECT
+                            profile.profileId,
+                            profile.profileNumber,
+                            profile.userId,
+                            profile.firstName,
+                            profile.lastName,
+                            CONCAT(
+                                profile.firstName,
+                                ' ',
+                                profile.lastName
+                            ) AS `fullName`,
+                            profile.gender,
+                            profile.dob,
+                            profile.height,
+                            profile.maritalStatus,
+                            profile.city,
+                            profile.state,
+                            profile.highestEducation,
+                            profile.occupation,
+                            profile.income,
+                            profile.desiredAgeGroup,
+                            profile.desiredHeight,
+                            profile.desiredMaritalStatus,
+                            profile.status,
+                            AGE_FROM_DOB(profile.dob) AS `age`,
+                            artifact.artifactId,
+                            artifact.avatarFileName
+                        FROM
+                            profile
+                        LEFT JOIN artifact ON profile.userId = artifact.userId
+                        WHERE AGE_FROM_DOB( profile.dob) >= SPLIT_STR('21-23','-',1) AND 
+                         AGE_FROM_DOB( profile.dob) <= SPLIT_STR('21-23','-',2) AND  profile.height >= SPLIT_STR('40-50','-',1) AND 
+                        profile.height <= SPLIT_STR('40-50','-',2) AND profile.gender != 'Male' AND profile.userId != 26 AND profile.status = 'ACTIVE'
+INFO - 2021-10-11 07:12:08 --> Curated Query = SELECT
+                            profile.profileId,
+                            profile.profileNumber,
+                            profile.userId,
+                            profile.firstName,
+                            profile.lastName,
+                            CONCAT(
+                                profile.firstName,
+                                ' ',
+                                profile.lastName
+                            ) AS `fullName`,
+                            profile.gender,
+                            profile.dob,
+                            profile.height,
+                            profile.maritalStatus,
+                            profile.city,
+                            profile.state,
+                            profile.highestEducation,
+                            profile.occupation,
+                            profile.income,
+                            profile.desiredAgeGroup,
+                            profile.desiredHeight,
+                            profile.desiredMaritalStatus,
+                            profile.status,
+                            AGE_FROM_DOB(profile.dob) AS `age`,
+                            artifact.artifactId,
+                            artifact.avatarFileName
+                        FROM
+                            profile
+                        LEFT JOIN artifact ON profile.userId = artifact.userId
+                        WHERE AGE_FROM_DOB( profile.dob) >= SPLIT_STR('21-23','-',1) AND 
+                         AGE_FROM_DOB( profile.dob) <= SPLIT_STR('21-23','-',2) AND  profile.height >= SPLIT_STR('40-50','-',1) AND 
+                        profile.height <= SPLIT_STR('40-50','-',2) AND 'Single,Widowed,Divorced' 
+                        LIKE CONCAT('%',profile.maritalStatus,'%') AND profile.gender != 'Male' AND profile.userId != 26 AND profile.status = 'ACTIVE'
+INFO - 2021-10-11 07:12:13 --> Curated Query = SELECT
+                            profile.profileId,
+                            profile.profileNumber,
+                            profile.userId,
+                            profile.firstName,
+                            profile.lastName,
+                            CONCAT(
+                                profile.firstName,
+                                ' ',
+                                profile.lastName
+                            ) AS `fullName`,
+                            profile.gender,
+                            profile.dob,
+                            profile.height,
+                            profile.maritalStatus,
+                            profile.city,
+                            profile.state,
+                            profile.highestEducation,
+                            profile.occupation,
+                            profile.income,
+                            profile.desiredAgeGroup,
+                            profile.desiredHeight,
+                            profile.desiredMaritalStatus,
+                            profile.status,
+                            AGE_FROM_DOB(profile.dob) AS `age`,
+                            artifact.artifactId,
+                            artifact.avatarFileName
+                        FROM
+                            profile
+                        LEFT JOIN artifact ON profile.userId = artifact.userId
+                        WHERE AGE_FROM_DOB( profile.dob) >= SPLIT_STR('21-23','-',1) AND 
+                         AGE_FROM_DOB( profile.dob) <= SPLIT_STR('21-23','-',2) AND  profile.height >= SPLIT_STR('40-50','-',1) AND 
+                        profile.height <= SPLIT_STR('40-50','-',2) AND profile.gender != 'Male' AND profile.userId != 26 AND profile.status = 'ACTIVE'
+INFO - 2021-10-11 07:17:26 --> Token error: UnexpectedValueException: Wrong number of segments in C:\xampp\htdocs\sbatMatrimony\server\vendor\firebase\php-jwt\src\JWT.php:88
+Stack trace:
+#0 C:\xampp\htdocs\sbatMatrimony\server\app\Libraries\Apiserver.php(32): Firebase\JWT\JWT::decode('null', 'NklOUDFSNThVUXV...', Array)
+#1 C:\xampp\htdocs\sbatMatrimony\server\app\Controllers\RestApiBaseController.php(25): App\Libraries\Apiserver->validateToken('null')
+#2 C:\xampp\htdocs\sbatMatrimony\server\app\Controllers\Listing.php(19): App\Controllers\RestApiBaseController->__construct()
+#3 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(908): App\Controllers\Listing->__construct()
+#4 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#5 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\sbatMatrimony\server\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}

@@ -1,0 +1,70 @@
+INFO - 2021-10-07 03:40:30 --> Token error: Firebase\JWT\ExpiredException: Expired token in C:\xampp\htdocs\sbatMatrimony\server\vendor\firebase\php-jwt\src\JWT.php:149
+Stack trace:
+#0 C:\xampp\htdocs\sbatMatrimony\server\app\Libraries\Apiserver.php(32): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1Q...', 'NklOUDFSNThVUXV...', Array)
+#1 C:\xampp\htdocs\sbatMatrimony\server\app\Controllers\RestApiBaseController.php(25): App\Libraries\Apiserver->validateToken('eyJ0eXAiOiJKV1Q...')
+#2 C:\xampp\htdocs\sbatMatrimony\server\app\Controllers\Profile.php(19): App\Controllers\RestApiBaseController->__construct()
+#3 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(908): App\Controllers\Profile->__construct()
+#4 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#5 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\sbatMatrimony\server\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+INFO - 2021-10-07 04:59:27 --> Token error: Firebase\JWT\ExpiredException: Expired token in C:\xampp\htdocs\sbatMatrimony\server\vendor\firebase\php-jwt\src\JWT.php:149
+Stack trace:
+#0 C:\xampp\htdocs\sbatMatrimony\server\app\Libraries\Apiserver.php(32): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1Q...', 'NklOUDFSNThVUXV...', Array)
+#1 C:\xampp\htdocs\sbatMatrimony\server\app\Controllers\RestApiBaseController.php(25): App\Libraries\Apiserver->validateToken('eyJ0eXAiOiJKV1Q...')
+#2 C:\xampp\htdocs\sbatMatrimony\server\app\Controllers\Listing.php(19): App\Controllers\RestApiBaseController->__construct()
+#3 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(908): App\Controllers\Listing->__construct()
+#4 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#5 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\sbatMatrimony\server\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+INFO - 2021-10-07 05:32:54 --> Token error: Firebase\JWT\ExpiredException: Expired token in C:\xampp\htdocs\sbatMatrimony\server\vendor\firebase\php-jwt\src\JWT.php:149
+Stack trace:
+#0 C:\xampp\htdocs\sbatMatrimony\server\app\Libraries\Apiserver.php(32): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1Q...', 'NklOUDFSNThVUXV...', Array)
+#1 C:\xampp\htdocs\sbatMatrimony\server\app\Controllers\RestApiBaseController.php(25): App\Libraries\Apiserver->validateToken('eyJ0eXAiOiJKV1Q...')
+#2 C:\xampp\htdocs\sbatMatrimony\server\app\Controllers\Listing.php(19): App\Controllers\RestApiBaseController->__construct()
+#3 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(908): App\Controllers\Listing->__construct()
+#4 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#5 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\sbatMatrimony\server\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+INFO - 2021-10-07 06:32:07 --> Token error: Firebase\JWT\ExpiredException: Expired token in C:\xampp\htdocs\sbatMatrimony\server\vendor\firebase\php-jwt\src\JWT.php:149
+Stack trace:
+#0 C:\xampp\htdocs\sbatMatrimony\server\app\Libraries\Apiserver.php(32): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1Q...', 'NklOUDFSNThVUXV...', Array)
+#1 C:\xampp\htdocs\sbatMatrimony\server\app\Controllers\RestApiBaseController.php(25): App\Libraries\Apiserver->validateToken('eyJ0eXAiOiJKV1Q...')
+#2 C:\xampp\htdocs\sbatMatrimony\server\app\Controllers\Listing.php(19): App\Controllers\RestApiBaseController->__construct()
+#3 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(908): App\Controllers\Listing->__construct()
+#4 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#5 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\sbatMatrimony\server\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+INFO - 2021-10-07 07:18:31 --> Token error: Firebase\JWT\ExpiredException: Expired token in C:\xampp\htdocs\sbatMatrimony\server\vendor\firebase\php-jwt\src\JWT.php:149
+Stack trace:
+#0 C:\xampp\htdocs\sbatMatrimony\server\app\Libraries\Apiserver.php(32): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1Q...', 'NklOUDFSNThVUXV...', Array)
+#1 C:\xampp\htdocs\sbatMatrimony\server\app\Controllers\RestApiBaseController.php(25): App\Libraries\Apiserver->validateToken('eyJ0eXAiOiJKV1Q...')
+#2 C:\xampp\htdocs\sbatMatrimony\server\app\Controllers\Listing.php(19): App\Controllers\RestApiBaseController->__construct()
+#3 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(908): App\Controllers\Listing->__construct()
+#4 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#5 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\sbatMatrimony\server\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+INFO - 2021-10-07 07:55:08 --> Token error: Firebase\JWT\ExpiredException: Expired token in C:\xampp\htdocs\sbatMatrimony\server\vendor\firebase\php-jwt\src\JWT.php:149
+Stack trace:
+#0 C:\xampp\htdocs\sbatMatrimony\server\app\Libraries\Apiserver.php(32): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1Q...', 'NklOUDFSNThVUXV...', Array)
+#1 C:\xampp\htdocs\sbatMatrimony\server\app\Controllers\RestApiBaseController.php(25): App\Libraries\Apiserver->validateToken('eyJ0eXAiOiJKV1Q...')
+#2 C:\xampp\htdocs\sbatMatrimony\server\app\Controllers\Listing.php(19): App\Controllers\RestApiBaseController->__construct()
+#3 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(908): App\Controllers\Listing->__construct()
+#4 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#5 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\sbatMatrimony\server\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+INFO - 2021-10-07 08:27:12 --> Token error: Firebase\JWT\ExpiredException: Expired token in C:\xampp\htdocs\sbatMatrimony\server\vendor\firebase\php-jwt\src\JWT.php:149
+Stack trace:
+#0 C:\xampp\htdocs\sbatMatrimony\server\app\Libraries\Apiserver.php(32): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1Q...', 'NklOUDFSNThVUXV...', Array)
+#1 C:\xampp\htdocs\sbatMatrimony\server\app\Controllers\RestApiBaseController.php(25): App\Libraries\Apiserver->validateToken('eyJ0eXAiOiJKV1Q...')
+#2 C:\xampp\htdocs\sbatMatrimony\server\app\Controllers\Listing.php(19): App\Controllers\RestApiBaseController->__construct()
+#3 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(908): App\Controllers\Listing->__construct()
+#4 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#5 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\sbatMatrimony\server\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}

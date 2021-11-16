@@ -1,0 +1,15 @@
+CRITICAL - 2021-10-22 07:53:10 --> Undefined property: stdClass::$userId
+#0 C:\xampp\htdocs\sbatMatrimony\server\app\Controllers\Login.php(75): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 75, Array)
+#1 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(936): App\Controllers\Login->forgotPassword()
+#2 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#3 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\sbatMatrimony\server\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-10-22 07:54:29 --> Undefined property: stdClass::$userId
+#0 C:\xampp\htdocs\sbatMatrimony\server\app\Controllers\Login.php(75): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 75, Array)
+#1 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(936): App\Controllers\Login->forgotPassword()
+#2 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#3 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\sbatMatrimony\server\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2021-10-22 07:55:38 --> email sending status

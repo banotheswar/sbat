@@ -1,0 +1,216 @@
+ERROR - 2021-11-07 23:56:31 --> mysqli_sql_exception: Column 'state' cannot be null in C:\xampp\htdocs\sbatMatrimony\server\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\sbatMatrimony\server\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `pa...')
+#1 C:\xampp\htdocs\sbatMatrimony\server\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pa...')
+#2 C:\xampp\htdocs\sbatMatrimony\server\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pa...')
+#3 C:\xampp\htdocs\sbatMatrimony\server\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pa...', Array, false)
+#4 C:\xampp\htdocs\sbatMatrimony\server\app\Controllers\Payment.php(88): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(936): App\Controllers\payment->payment()
+#6 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\payment))
+#7 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\sbatMatrimony\server\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+INFO - 2021-11-07 23:56:31 --> Could not save payment data: mysqli_sql_exception: Column 'state' cannot be null in C:\xampp\htdocs\sbatMatrimony\server\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\sbatMatrimony\server\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `pa...')
+#1 C:\xampp\htdocs\sbatMatrimony\server\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pa...')
+#2 C:\xampp\htdocs\sbatMatrimony\server\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pa...')
+#3 C:\xampp\htdocs\sbatMatrimony\server\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pa...', Array, false)
+#4 C:\xampp\htdocs\sbatMatrimony\server\app\Controllers\Payment.php(88): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(936): App\Controllers\payment->payment()
+#6 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\payment))
+#7 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\sbatMatrimony\server\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-11-07 23:56:34 --> mysqli_sql_exception: Column 'state' cannot be null in C:\xampp\htdocs\sbatMatrimony\server\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\sbatMatrimony\server\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `pa...')
+#1 C:\xampp\htdocs\sbatMatrimony\server\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pa...')
+#2 C:\xampp\htdocs\sbatMatrimony\server\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pa...')
+#3 C:\xampp\htdocs\sbatMatrimony\server\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pa...', Array, false)
+#4 C:\xampp\htdocs\sbatMatrimony\server\app\Controllers\Payment.php(88): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(936): App\Controllers\payment->payment()
+#6 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\payment))
+#7 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\sbatMatrimony\server\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+INFO - 2021-11-07 23:56:34 --> Could not save payment data: mysqli_sql_exception: Column 'state' cannot be null in C:\xampp\htdocs\sbatMatrimony\server\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\sbatMatrimony\server\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `pa...')
+#1 C:\xampp\htdocs\sbatMatrimony\server\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pa...')
+#2 C:\xampp\htdocs\sbatMatrimony\server\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pa...')
+#3 C:\xampp\htdocs\sbatMatrimony\server\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pa...', Array, false)
+#4 C:\xampp\htdocs\sbatMatrimony\server\app\Controllers\Payment.php(88): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(936): App\Controllers\payment->payment()
+#6 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\payment))
+#7 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\sbatMatrimony\server\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-11-07 23:56:35 --> mysqli_sql_exception: Column 'state' cannot be null in C:\xampp\htdocs\sbatMatrimony\server\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\sbatMatrimony\server\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `pa...')
+#1 C:\xampp\htdocs\sbatMatrimony\server\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pa...')
+#2 C:\xampp\htdocs\sbatMatrimony\server\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pa...')
+#3 C:\xampp\htdocs\sbatMatrimony\server\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pa...', Array, false)
+#4 C:\xampp\htdocs\sbatMatrimony\server\app\Controllers\Payment.php(88): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(936): App\Controllers\payment->payment()
+#6 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\payment))
+#7 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\sbatMatrimony\server\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+INFO - 2021-11-07 23:56:35 --> Could not save payment data: mysqli_sql_exception: Column 'state' cannot be null in C:\xampp\htdocs\sbatMatrimony\server\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\sbatMatrimony\server\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `pa...')
+#1 C:\xampp\htdocs\sbatMatrimony\server\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pa...')
+#2 C:\xampp\htdocs\sbatMatrimony\server\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pa...')
+#3 C:\xampp\htdocs\sbatMatrimony\server\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pa...', Array, false)
+#4 C:\xampp\htdocs\sbatMatrimony\server\app\Controllers\Payment.php(88): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(936): App\Controllers\payment->payment()
+#6 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\payment))
+#7 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\sbatMatrimony\server\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-11-07 23:56:52 --> mysqli_sql_exception: Column 'state' cannot be null in C:\xampp\htdocs\sbatMatrimony\server\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\sbatMatrimony\server\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `pa...')
+#1 C:\xampp\htdocs\sbatMatrimony\server\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pa...')
+#2 C:\xampp\htdocs\sbatMatrimony\server\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pa...')
+#3 C:\xampp\htdocs\sbatMatrimony\server\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pa...', Array, false)
+#4 C:\xampp\htdocs\sbatMatrimony\server\app\Controllers\Payment.php(88): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(936): App\Controllers\payment->payment()
+#6 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\payment))
+#7 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\sbatMatrimony\server\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+INFO - 2021-11-07 23:56:52 --> Could not save payment data: mysqli_sql_exception: Column 'state' cannot be null in C:\xampp\htdocs\sbatMatrimony\server\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\sbatMatrimony\server\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `pa...')
+#1 C:\xampp\htdocs\sbatMatrimony\server\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pa...')
+#2 C:\xampp\htdocs\sbatMatrimony\server\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pa...')
+#3 C:\xampp\htdocs\sbatMatrimony\server\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pa...', Array, false)
+#4 C:\xampp\htdocs\sbatMatrimony\server\app\Controllers\Payment.php(88): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(936): App\Controllers\payment->payment()
+#6 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\payment))
+#7 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\sbatMatrimony\server\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-11-07 23:56:54 --> mysqli_sql_exception: Column 'state' cannot be null in C:\xampp\htdocs\sbatMatrimony\server\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\sbatMatrimony\server\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `pa...')
+#1 C:\xampp\htdocs\sbatMatrimony\server\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pa...')
+#2 C:\xampp\htdocs\sbatMatrimony\server\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pa...')
+#3 C:\xampp\htdocs\sbatMatrimony\server\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pa...', Array, false)
+#4 C:\xampp\htdocs\sbatMatrimony\server\app\Controllers\Payment.php(88): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(936): App\Controllers\payment->payment()
+#6 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\payment))
+#7 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\sbatMatrimony\server\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+INFO - 2021-11-07 23:56:54 --> Could not save payment data: mysqli_sql_exception: Column 'state' cannot be null in C:\xampp\htdocs\sbatMatrimony\server\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\sbatMatrimony\server\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `pa...')
+#1 C:\xampp\htdocs\sbatMatrimony\server\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pa...')
+#2 C:\xampp\htdocs\sbatMatrimony\server\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pa...')
+#3 C:\xampp\htdocs\sbatMatrimony\server\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pa...', Array, false)
+#4 C:\xampp\htdocs\sbatMatrimony\server\app\Controllers\Payment.php(88): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(936): App\Controllers\payment->payment()
+#6 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\payment))
+#7 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\sbatMatrimony\server\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-11-07 23:56:56 --> mysqli_sql_exception: Column 'state' cannot be null in C:\xampp\htdocs\sbatMatrimony\server\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\sbatMatrimony\server\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `pa...')
+#1 C:\xampp\htdocs\sbatMatrimony\server\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pa...')
+#2 C:\xampp\htdocs\sbatMatrimony\server\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pa...')
+#3 C:\xampp\htdocs\sbatMatrimony\server\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pa...', Array, false)
+#4 C:\xampp\htdocs\sbatMatrimony\server\app\Controllers\Payment.php(88): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(936): App\Controllers\payment->payment()
+#6 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\payment))
+#7 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\sbatMatrimony\server\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+INFO - 2021-11-07 23:56:56 --> Could not save payment data: mysqli_sql_exception: Column 'state' cannot be null in C:\xampp\htdocs\sbatMatrimony\server\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\sbatMatrimony\server\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `pa...')
+#1 C:\xampp\htdocs\sbatMatrimony\server\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pa...')
+#2 C:\xampp\htdocs\sbatMatrimony\server\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pa...')
+#3 C:\xampp\htdocs\sbatMatrimony\server\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pa...', Array, false)
+#4 C:\xampp\htdocs\sbatMatrimony\server\app\Controllers\Payment.php(88): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(936): App\Controllers\payment->payment()
+#6 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\payment))
+#7 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\sbatMatrimony\server\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-11-07 23:56:58 --> mysqli_sql_exception: Column 'state' cannot be null in C:\xampp\htdocs\sbatMatrimony\server\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\sbatMatrimony\server\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `pa...')
+#1 C:\xampp\htdocs\sbatMatrimony\server\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pa...')
+#2 C:\xampp\htdocs\sbatMatrimony\server\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pa...')
+#3 C:\xampp\htdocs\sbatMatrimony\server\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pa...', Array, false)
+#4 C:\xampp\htdocs\sbatMatrimony\server\app\Controllers\Payment.php(88): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(936): App\Controllers\payment->payment()
+#6 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\payment))
+#7 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\sbatMatrimony\server\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+INFO - 2021-11-07 23:56:58 --> Could not save payment data: mysqli_sql_exception: Column 'state' cannot be null in C:\xampp\htdocs\sbatMatrimony\server\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\sbatMatrimony\server\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `pa...')
+#1 C:\xampp\htdocs\sbatMatrimony\server\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pa...')
+#2 C:\xampp\htdocs\sbatMatrimony\server\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pa...')
+#3 C:\xampp\htdocs\sbatMatrimony\server\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pa...', Array, false)
+#4 C:\xampp\htdocs\sbatMatrimony\server\app\Controllers\Payment.php(88): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(936): App\Controllers\payment->payment()
+#6 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\payment))
+#7 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\sbatMatrimony\server\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-11-07 23:56:58 --> mysqli_sql_exception: Column 'state' cannot be null in C:\xampp\htdocs\sbatMatrimony\server\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\sbatMatrimony\server\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `pa...')
+#1 C:\xampp\htdocs\sbatMatrimony\server\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pa...')
+#2 C:\xampp\htdocs\sbatMatrimony\server\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pa...')
+#3 C:\xampp\htdocs\sbatMatrimony\server\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pa...', Array, false)
+#4 C:\xampp\htdocs\sbatMatrimony\server\app\Controllers\Payment.php(88): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(936): App\Controllers\payment->payment()
+#6 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\payment))
+#7 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\sbatMatrimony\server\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+INFO - 2021-11-07 23:56:58 --> Could not save payment data: mysqli_sql_exception: Column 'state' cannot be null in C:\xampp\htdocs\sbatMatrimony\server\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\sbatMatrimony\server\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `pa...')
+#1 C:\xampp\htdocs\sbatMatrimony\server\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pa...')
+#2 C:\xampp\htdocs\sbatMatrimony\server\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pa...')
+#3 C:\xampp\htdocs\sbatMatrimony\server\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pa...', Array, false)
+#4 C:\xampp\htdocs\sbatMatrimony\server\app\Controllers\Payment.php(88): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(936): App\Controllers\payment->payment()
+#6 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\payment))
+#7 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\sbatMatrimony\server\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-11-07 23:57:20 --> mysqli_sql_exception: Column 'state' cannot be null in C:\xampp\htdocs\sbatMatrimony\server\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\sbatMatrimony\server\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `pa...')
+#1 C:\xampp\htdocs\sbatMatrimony\server\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pa...')
+#2 C:\xampp\htdocs\sbatMatrimony\server\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pa...')
+#3 C:\xampp\htdocs\sbatMatrimony\server\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pa...', Array, false)
+#4 C:\xampp\htdocs\sbatMatrimony\server\app\Controllers\Payment.php(88): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(936): App\Controllers\payment->payment()
+#6 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\payment))
+#7 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\sbatMatrimony\server\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+INFO - 2021-11-07 23:57:20 --> Could not save payment data: mysqli_sql_exception: Column 'state' cannot be null in C:\xampp\htdocs\sbatMatrimony\server\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\sbatMatrimony\server\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `pa...')
+#1 C:\xampp\htdocs\sbatMatrimony\server\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pa...')
+#2 C:\xampp\htdocs\sbatMatrimony\server\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pa...')
+#3 C:\xampp\htdocs\sbatMatrimony\server\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pa...', Array, false)
+#4 C:\xampp\htdocs\sbatMatrimony\server\app\Controllers\Payment.php(88): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(936): App\Controllers\payment->payment()
+#6 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\payment))
+#7 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\sbatMatrimony\server\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}

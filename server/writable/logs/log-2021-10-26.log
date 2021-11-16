@@ -1,0 +1,102 @@
+ERROR - 2021-10-26 13:22:57 --> mysqli_sql_exception: Unknown column 'fromUserId' in 'field list' in C:\xampp\htdocs\sbatMatrimony\server\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\sbatMatrimony\server\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `in...')
+#1 C:\xampp\htdocs\sbatMatrimony\server\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `in...')
+#2 C:\xampp\htdocs\sbatMatrimony\server\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `in...')
+#3 C:\xampp\htdocs\sbatMatrimony\server\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `in...', Array, false)
+#4 C:\xampp\htdocs\sbatMatrimony\server\app\Controllers\Interest.php(39): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(936): App\Controllers\Interest->save()
+#6 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Interest))
+#7 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\sbatMatrimony\server\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+INFO - 2021-10-26 13:22:57 --> Could not save interest data: mysqli_sql_exception: Unknown column 'fromUserId' in 'field list' in C:\xampp\htdocs\sbatMatrimony\server\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\sbatMatrimony\server\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `in...')
+#1 C:\xampp\htdocs\sbatMatrimony\server\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `in...')
+#2 C:\xampp\htdocs\sbatMatrimony\server\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `in...')
+#3 C:\xampp\htdocs\sbatMatrimony\server\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `in...', Array, false)
+#4 C:\xampp\htdocs\sbatMatrimony\server\app\Controllers\Interest.php(39): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(936): App\Controllers\Interest->save()
+#6 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Interest))
+#7 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\sbatMatrimony\server\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-10-26 13:26:40 --> mysqli_sql_exception: Unknown column 'fromUserId' in 'field list' in C:\xampp\htdocs\sbatMatrimony\server\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\sbatMatrimony\server\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `in...')
+#1 C:\xampp\htdocs\sbatMatrimony\server\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `in...')
+#2 C:\xampp\htdocs\sbatMatrimony\server\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `in...')
+#3 C:\xampp\htdocs\sbatMatrimony\server\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `in...', Array, false)
+#4 C:\xampp\htdocs\sbatMatrimony\server\app\Controllers\Interest.php(39): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(936): App\Controllers\Interest->save()
+#6 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Interest))
+#7 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\sbatMatrimony\server\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+INFO - 2021-10-26 13:26:40 --> Could not save interest data: mysqli_sql_exception: Unknown column 'fromUserId' in 'field list' in C:\xampp\htdocs\sbatMatrimony\server\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\sbatMatrimony\server\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `in...')
+#1 C:\xampp\htdocs\sbatMatrimony\server\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `in...')
+#2 C:\xampp\htdocs\sbatMatrimony\server\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `in...')
+#3 C:\xampp\htdocs\sbatMatrimony\server\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `in...', Array, false)
+#4 C:\xampp\htdocs\sbatMatrimony\server\app\Controllers\Interest.php(39): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(936): App\Controllers\Interest->save()
+#6 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Interest))
+#7 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\sbatMatrimony\server\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-10-26 13:28:01 --> mysqli_sql_exception: Unknown column 'fromUserId' in 'field list' in C:\xampp\htdocs\sbatMatrimony\server\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\sbatMatrimony\server\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `in...')
+#1 C:\xampp\htdocs\sbatMatrimony\server\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `in...')
+#2 C:\xampp\htdocs\sbatMatrimony\server\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `in...')
+#3 C:\xampp\htdocs\sbatMatrimony\server\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `in...', Array, false)
+#4 C:\xampp\htdocs\sbatMatrimony\server\app\Controllers\Interest.php(39): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(936): App\Controllers\Interest->save()
+#6 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Interest))
+#7 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\sbatMatrimony\server\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+INFO - 2021-10-26 13:28:01 --> Could not save interest data: mysqli_sql_exception: Unknown column 'fromUserId' in 'field list' in C:\xampp\htdocs\sbatMatrimony\server\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\sbatMatrimony\server\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `in...')
+#1 C:\xampp\htdocs\sbatMatrimony\server\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `in...')
+#2 C:\xampp\htdocs\sbatMatrimony\server\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `in...')
+#3 C:\xampp\htdocs\sbatMatrimony\server\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `in...', Array, false)
+#4 C:\xampp\htdocs\sbatMatrimony\server\app\Controllers\Interest.php(39): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(936): App\Controllers\Interest->save()
+#6 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Interest))
+#7 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\sbatMatrimony\server\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+INFO - 2021-10-26 13:28:53 --> Could not save interest data: ErrorException: Undefined index: toUserId in C:\xampp\htdocs\sbatMatrimony\server\app\Controllers\Interest.php:43
+Stack trace:
+#0 C:\xampp\htdocs\sbatMatrimony\server\app\Controllers\Interest.php(43): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 43, Array)
+#1 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(936): App\Controllers\Interest->save()
+#2 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Interest))
+#3 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\sbatMatrimony\server\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+INFO - 2021-10-26 13:29:32 --> Could not save interest data: ErrorException: Undefined property: stdClass::$toProfileNumber in C:\xampp\htdocs\sbatMatrimony\server\app\Controllers\Interest.php:46
+Stack trace:
+#0 C:\xampp\htdocs\sbatMatrimony\server\app\Controllers\Interest.php(46): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 46, Array)
+#1 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(936): App\Controllers\Interest->save()
+#2 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Interest))
+#3 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\sbatMatrimony\server\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+INFO - 2021-10-26 13:30:19 --> Could not save interest data: ErrorException: Undefined property: stdClass::$profileNumber in C:\xampp\htdocs\sbatMatrimony\server\app\Controllers\Interest.php:46
+Stack trace:
+#0 C:\xampp\htdocs\sbatMatrimony\server\app\Controllers\Interest.php(46): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 46, Array)
+#1 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(936): App\Controllers\Interest->save()
+#2 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Interest))
+#3 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\sbatMatrimony\server\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2021-10-26 13:39:59 --> email sending status
+ERROR - 2021-10-26 13:40:02 --> email sending status
+ERROR - 2021-10-26 13:45:19 --> email sending status
+ERROR - 2021-10-26 13:45:22 --> email sending status
+ERROR - 2021-10-26 13:45:56 --> email sending status
+ERROR - 2021-10-26 13:45:59 --> email sending status

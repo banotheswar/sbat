@@ -1,0 +1,7 @@
+{
+    "require": {
+        "phpoffice/phpspreadsheet": "^1.17",
+        "razorpay/razorpay": "2",
+        "firebase/php-jwt": "^5.4"
+    }
+}

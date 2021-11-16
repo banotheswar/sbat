@@ -1,0 +1,300 @@
+INFO - 2021-11-12 01:55:35 --> Token error: Firebase\JWT\ExpiredException: Expired token in C:\xampp\htdocs\sbatMatrimony\server\vendor\firebase\php-jwt\src\JWT.php:149
+Stack trace:
+#0 C:\xampp\htdocs\sbatMatrimony\server\app\Libraries\Apiserver.php(32): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1Q...', 'NklOUDFSNThVUXV...', Array)
+#1 C:\xampp\htdocs\sbatMatrimony\server\app\Controllers\RestApiBaseController.php(25): App\Libraries\Apiserver->validateToken('eyJ0eXAiOiJKV1Q...')
+#2 C:\xampp\htdocs\sbatMatrimony\server\app\Controllers\Listing.php(19): App\Controllers\RestApiBaseController->__construct()
+#3 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(908): App\Controllers\Listing->__construct()
+#4 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#5 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\sbatMatrimony\server\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+INFO - 2021-11-12 01:55:35 --> Token error: Firebase\JWT\ExpiredException: Expired token in C:\xampp\htdocs\sbatMatrimony\server\vendor\firebase\php-jwt\src\JWT.php:149
+Stack trace:
+#0 C:\xampp\htdocs\sbatMatrimony\server\app\Libraries\Apiserver.php(32): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1Q...', 'NklOUDFSNThVUXV...', Array)
+#1 C:\xampp\htdocs\sbatMatrimony\server\app\Controllers\RestApiBaseController.php(25): App\Libraries\Apiserver->validateToken('eyJ0eXAiOiJKV1Q...')
+#2 C:\xampp\htdocs\sbatMatrimony\server\app\Controllers\Interest.php(19): App\Controllers\RestApiBaseController->__construct()
+#3 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(908): App\Controllers\Interest->__construct()
+#4 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#5 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\sbatMatrimony\server\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+INFO - 2021-11-12 01:55:38 --> Token error: UnexpectedValueException: Wrong number of segments in C:\xampp\htdocs\sbatMatrimony\server\vendor\firebase\php-jwt\src\JWT.php:88
+Stack trace:
+#0 C:\xampp\htdocs\sbatMatrimony\server\app\Libraries\Apiserver.php(32): Firebase\JWT\JWT::decode('null', 'NklOUDFSNThVUXV...', Array)
+#1 C:\xampp\htdocs\sbatMatrimony\server\app\Controllers\RestApiBaseController.php(25): App\Libraries\Apiserver->validateToken('null')
+#2 C:\xampp\htdocs\sbatMatrimony\server\app\Controllers\Listing.php(19): App\Controllers\RestApiBaseController->__construct()
+#3 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(908): App\Controllers\Listing->__construct()
+#4 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#5 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\sbatMatrimony\server\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+INFO - 2021-11-12 01:55:38 --> Token error: UnexpectedValueException: Wrong number of segments in C:\xampp\htdocs\sbatMatrimony\server\vendor\firebase\php-jwt\src\JWT.php:88
+Stack trace:
+#0 C:\xampp\htdocs\sbatMatrimony\server\app\Libraries\Apiserver.php(32): Firebase\JWT\JWT::decode('null', 'NklOUDFSNThVUXV...', Array)
+#1 C:\xampp\htdocs\sbatMatrimony\server\app\Controllers\RestApiBaseController.php(25): App\Libraries\Apiserver->validateToken('null')
+#2 C:\xampp\htdocs\sbatMatrimony\server\app\Controllers\Interest.php(19): App\Controllers\RestApiBaseController->__construct()
+#3 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(908): App\Controllers\Interest->__construct()
+#4 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#5 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\sbatMatrimony\server\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+INFO - 2021-11-12 01:56:57 --> Token error: UnexpectedValueException: Wrong number of segments in C:\xampp\htdocs\sbatMatrimony\server\vendor\firebase\php-jwt\src\JWT.php:88
+Stack trace:
+#0 C:\xampp\htdocs\sbatMatrimony\server\app\Libraries\Apiserver.php(32): Firebase\JWT\JWT::decode('null', 'NklOUDFSNThVUXV...', Array)
+#1 C:\xampp\htdocs\sbatMatrimony\server\app\Controllers\RestApiBaseController.php(25): App\Libraries\Apiserver->validateToken('null')
+#2 C:\xampp\htdocs\sbatMatrimony\server\app\Controllers\Listing.php(19): App\Controllers\RestApiBaseController->__construct()
+#3 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(908): App\Controllers\Listing->__construct()
+#4 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#5 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\sbatMatrimony\server\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+INFO - 2021-11-12 01:56:57 --> Token error: UnexpectedValueException: Wrong number of segments in C:\xampp\htdocs\sbatMatrimony\server\vendor\firebase\php-jwt\src\JWT.php:88
+Stack trace:
+#0 C:\xampp\htdocs\sbatMatrimony\server\app\Libraries\Apiserver.php(32): Firebase\JWT\JWT::decode('null', 'NklOUDFSNThVUXV...', Array)
+#1 C:\xampp\htdocs\sbatMatrimony\server\app\Controllers\RestApiBaseController.php(25): App\Libraries\Apiserver->validateToken('null')
+#2 C:\xampp\htdocs\sbatMatrimony\server\app\Controllers\Interest.php(19): App\Controllers\RestApiBaseController->__construct()
+#3 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(908): App\Controllers\Interest->__construct()
+#4 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#5 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\sbatMatrimony\server\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+INFO - 2021-11-12 01:57:05 --> Token error: UnexpectedValueException: Wrong number of segments in C:\xampp\htdocs\sbatMatrimony\server\vendor\firebase\php-jwt\src\JWT.php:88
+Stack trace:
+#0 C:\xampp\htdocs\sbatMatrimony\server\app\Libraries\Apiserver.php(32): Firebase\JWT\JWT::decode('null', 'NklOUDFSNThVUXV...', Array)
+#1 C:\xampp\htdocs\sbatMatrimony\server\app\Controllers\RestApiBaseController.php(25): App\Libraries\Apiserver->validateToken('null')
+#2 C:\xampp\htdocs\sbatMatrimony\server\app\Controllers\Profile.php(19): App\Controllers\RestApiBaseController->__construct()
+#3 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(908): App\Controllers\Profile->__construct()
+#4 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#5 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\sbatMatrimony\server\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+INFO - 2021-11-12 01:57:05 --> Token error: UnexpectedValueException: Wrong number of segments in C:\xampp\htdocs\sbatMatrimony\server\vendor\firebase\php-jwt\src\JWT.php:88
+Stack trace:
+#0 C:\xampp\htdocs\sbatMatrimony\server\app\Libraries\Apiserver.php(32): Firebase\JWT\JWT::decode('null', 'NklOUDFSNThVUXV...', Array)
+#1 C:\xampp\htdocs\sbatMatrimony\server\app\Controllers\RestApiBaseController.php(25): App\Libraries\Apiserver->validateToken('null')
+#2 C:\xampp\htdocs\sbatMatrimony\server\app\Controllers\Interest.php(19): App\Controllers\RestApiBaseController->__construct()
+#3 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(908): App\Controllers\Interest->__construct()
+#4 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#5 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\sbatMatrimony\server\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+INFO - 2021-11-12 03:18:41 --> Token error: Firebase\JWT\ExpiredException: Expired token in C:\xampp\htdocs\sbatMatrimony\server\vendor\firebase\php-jwt\src\JWT.php:149
+Stack trace:
+#0 C:\xampp\htdocs\sbatMatrimony\server\app\Libraries\Apiserver.php(32): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1Q...', 'NklOUDFSNThVUXV...', Array)
+#1 C:\xampp\htdocs\sbatMatrimony\server\app\Controllers\RestApiBaseController.php(25): App\Libraries\Apiserver->validateToken('eyJ0eXAiOiJKV1Q...')
+#2 C:\xampp\htdocs\sbatMatrimony\server\app\Controllers\Interest.php(19): App\Controllers\RestApiBaseController->__construct()
+#3 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(908): App\Controllers\Interest->__construct()
+#4 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#5 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\sbatMatrimony\server\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+INFO - 2021-11-12 03:18:41 --> Token error: Firebase\JWT\ExpiredException: Expired token in C:\xampp\htdocs\sbatMatrimony\server\vendor\firebase\php-jwt\src\JWT.php:149
+Stack trace:
+#0 C:\xampp\htdocs\sbatMatrimony\server\app\Libraries\Apiserver.php(32): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1Q...', 'NklOUDFSNThVUXV...', Array)
+#1 C:\xampp\htdocs\sbatMatrimony\server\app\Controllers\RestApiBaseController.php(25): App\Libraries\Apiserver->validateToken('eyJ0eXAiOiJKV1Q...')
+#2 C:\xampp\htdocs\sbatMatrimony\server\app\Controllers\Listing.php(19): App\Controllers\RestApiBaseController->__construct()
+#3 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(908): App\Controllers\Listing->__construct()
+#4 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#5 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\sbatMatrimony\server\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+INFO - 2021-11-12 04:03:35 --> Curated Query = SELECT
+                            profile.profileId,
+                            profile.profileNumber,
+                            profile.userId,
+                            profile.firstName,
+                            profile.lastName,
+                            CONCAT(
+                                profile.firstName,
+                                ' ',
+                                profile.lastName
+                            ) AS `fullName`,
+                            profile.gender,
+                            profile.dob,
+                            profile.height,
+                            profile.maritalStatus,
+                            profile.city,
+                            profile.state,
+                            profile.highestEducation,
+                            profile.occupation,
+                            profile.income,
+                            profile.desiredAgeGroup,
+                            profile.desiredHeight,
+                            profile.desiredMaritalStatus,
+                            profile.status,
+                            AGE_FROM_DOB(profile.dob) AS `age`,
+                            artifact.artifactId,
+                            artifact.avatarFileName
+                        FROM
+                            profile
+                        LEFT JOIN artifact ON profile.userId = artifact.userId
+                        WHERE AGE_FROM_DOB( profile.dob) >= SPLIT_STR('24-30','-',1) AND 
+                         AGE_FROM_DOB( profile.dob) <= SPLIT_STR('24-30','-',2) AND  profile.height >= SPLIT_STR('80-90','-',1) AND 
+                        profile.height <= SPLIT_STR('80-90','-',2) AND profile.gender != 'Male' AND profile.userId != 2 AND profile.status = 'ACTIVE'
+INFO - 2021-11-12 04:03:40 --> Curated Query = SELECT
+                            profile.profileId,
+                            profile.profileNumber,
+                            profile.userId,
+                            profile.firstName,
+                            profile.lastName,
+                            CONCAT(
+                                profile.firstName,
+                                ' ',
+                                profile.lastName
+                            ) AS `fullName`,
+                            profile.gender,
+                            profile.dob,
+                            profile.height,
+                            profile.maritalStatus,
+                            profile.city,
+                            profile.state,
+                            profile.highestEducation,
+                            profile.occupation,
+                            profile.income,
+                            profile.desiredAgeGroup,
+                            profile.desiredHeight,
+                            profile.desiredMaritalStatus,
+                            profile.status,
+                            AGE_FROM_DOB(profile.dob) AS `age`,
+                            artifact.artifactId,
+                            artifact.avatarFileName
+                        FROM
+                            profile
+                        LEFT JOIN artifact ON profile.userId = artifact.userId
+                        WHERE AGE_FROM_DOB( profile.dob) >= SPLIT_STR('24-30','-',1) AND 
+                         AGE_FROM_DOB( profile.dob) <= SPLIT_STR('24-30','-',2) AND  profile.height >= SPLIT_STR('80-90','-',1) AND 
+                        profile.height <= SPLIT_STR('80-90','-',2) AND 'Single,Widowed,Divorced' 
+                        LIKE CONCAT('%',profile.maritalStatus,'%') AND profile.gender != 'Male' AND profile.userId != 2 AND profile.status = 'ACTIVE'
+INFO - 2021-11-12 04:04:37 --> Curated Query = SELECT
+                            profile.profileId,
+                            profile.profileNumber,
+                            profile.userId,
+                            profile.firstName,
+                            profile.lastName,
+                            CONCAT(
+                                profile.firstName,
+                                ' ',
+                                profile.lastName
+                            ) AS `fullName`,
+                            profile.gender,
+                            profile.dob,
+                            profile.height,
+                            profile.maritalStatus,
+                            profile.city,
+                            profile.state,
+                            profile.highestEducation,
+                            profile.occupation,
+                            profile.income,
+                            profile.desiredAgeGroup,
+                            profile.desiredHeight,
+                            profile.desiredMaritalStatus,
+                            profile.status,
+                            AGE_FROM_DOB(profile.dob) AS `age`,
+                            artifact.artifactId,
+                            artifact.avatarFileName
+                        FROM
+                            profile
+                        LEFT JOIN artifact ON profile.userId = artifact.userId
+                        WHERE AGE_FROM_DOB( profile.dob) >= SPLIT_STR('24-30','-',1) AND 
+                         AGE_FROM_DOB( profile.dob) <= SPLIT_STR('24-30','-',2) AND  profile.height >= SPLIT_STR('80-90','-',1) AND 
+                        profile.height <= SPLIT_STR('80-90','-',2) AND profile.gender != 'Male' AND profile.userId != 2 AND profile.status = 'ACTIVE'
+INFO - 2021-11-12 04:04:53 --> Curated Query = SELECT
+                            profile.profileId,
+                            profile.profileNumber,
+                            profile.userId,
+                            profile.firstName,
+                            profile.lastName,
+                            CONCAT(
+                                profile.firstName,
+                                ' ',
+                                profile.lastName
+                            ) AS `fullName`,
+                            profile.gender,
+                            profile.dob,
+                            profile.height,
+                            profile.maritalStatus,
+                            profile.city,
+                            profile.state,
+                            profile.highestEducation,
+                            profile.occupation,
+                            profile.income,
+                            profile.desiredAgeGroup,
+                            profile.desiredHeight,
+                            profile.desiredMaritalStatus,
+                            profile.status,
+                            AGE_FROM_DOB(profile.dob) AS `age`,
+                            artifact.artifactId,
+                            artifact.avatarFileName
+                        FROM
+                            profile
+                        LEFT JOIN artifact ON profile.userId = artifact.userId
+                        WHERE AGE_FROM_DOB( profile.dob) >= SPLIT_STR('24-30','-',1) AND 
+                         AGE_FROM_DOB( profile.dob) <= SPLIT_STR('24-30','-',2) AND 'abc' 
+                        LIKE CONCAT('%',profile.caste,'%') AND profile.gender != 'Male' AND profile.userId != 2 AND profile.status = 'ACTIVE'
+INFO - 2021-11-12 04:05:00 --> Curated Query = SELECT
+                            profile.profileId,
+                            profile.profileNumber,
+                            profile.userId,
+                            profile.firstName,
+                            profile.lastName,
+                            CONCAT(
+                                profile.firstName,
+                                ' ',
+                                profile.lastName
+                            ) AS `fullName`,
+                            profile.gender,
+                            profile.dob,
+                            profile.height,
+                            profile.maritalStatus,
+                            profile.city,
+                            profile.state,
+                            profile.highestEducation,
+                            profile.occupation,
+                            profile.income,
+                            profile.desiredAgeGroup,
+                            profile.desiredHeight,
+                            profile.desiredMaritalStatus,
+                            profile.status,
+                            AGE_FROM_DOB(profile.dob) AS `age`,
+                            artifact.artifactId,
+                            artifact.avatarFileName
+                        FROM
+                            profile
+                        LEFT JOIN artifact ON profile.userId = artifact.userId
+                        WHERE AGE_FROM_DOB( profile.dob) >= SPLIT_STR('24-30','-',1) AND 
+                         AGE_FROM_DOB( profile.dob) <= SPLIT_STR('24-30','-',2) AND 'Single,Widowed,Divorced' 
+                        LIKE CONCAT('%',profile.maritalStatus,'%') AND 'abc' 
+                        LIKE CONCAT('%',profile.caste,'%') AND profile.gender != 'Male' AND profile.userId != 2 AND profile.status = 'ACTIVE'
+INFO - 2021-11-12 04:05:01 --> Curated Query = SELECT
+                            profile.profileId,
+                            profile.profileNumber,
+                            profile.userId,
+                            profile.firstName,
+                            profile.lastName,
+                            CONCAT(
+                                profile.firstName,
+                                ' ',
+                                profile.lastName
+                            ) AS `fullName`,
+                            profile.gender,
+                            profile.dob,
+                            profile.height,
+                            profile.maritalStatus,
+                            profile.city,
+                            profile.state,
+                            profile.highestEducation,
+                            profile.occupation,
+                            profile.income,
+                            profile.desiredAgeGroup,
+                            profile.desiredHeight,
+                            profile.desiredMaritalStatus,
+                            profile.status,
+                            AGE_FROM_DOB(profile.dob) AS `age`,
+                            artifact.artifactId,
+                            artifact.avatarFileName
+                        FROM
+                            profile
+                        LEFT JOIN artifact ON profile.userId = artifact.userId
+                        WHERE AGE_FROM_DOB( profile.dob) >= SPLIT_STR('24-30','-',1) AND 
+                         AGE_FROM_DOB( profile.dob) <= SPLIT_STR('24-30','-',2) AND 'abc' 
+                        LIKE CONCAT('%',profile.caste,'%') AND profile.gender != 'Male' AND profile.userId != 2 AND profile.status = 'ACTIVE'

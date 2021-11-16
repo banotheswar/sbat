@@ -1,0 +1,685 @@
+INFO - 2021-11-05 01:20:45 --> Curated Query = SELECT
+                            profile.profileId,
+                            profile.profileNumber,
+                            profile.userId,
+                            profile.firstName,
+                            profile.lastName,
+                            CONCAT(
+                                profile.firstName,
+                                ' ',
+                                profile.lastName
+                            ) AS `fullName`,
+                            profile.gender,
+                            profile.dob,
+                            profile.height,
+                            profile.maritalStatus,
+                            profile.city,
+                            profile.state,
+                            profile.highestEducation,
+                            profile.occupation,
+                            profile.income,
+                            profile.desiredAgeGroup,
+                            profile.desiredHeight,
+                            profile.desiredMaritalStatus,
+                            profile.status,
+                            AGE_FROM_DOB(profile.dob) AS `age`,
+                            artifact.artifactId,
+                            artifact.avatarFileName
+                        FROM
+                            profile
+                        LEFT JOIN artifact ON profile.userId = artifact.userId
+                        WHERE AGE_FROM_DOB( profile.dob) >= SPLIT_STR('24-27','-',1) AND 
+                         AGE_FROM_DOB( profile.dob) <= SPLIT_STR('24-27','-',2) AND  profile.height >= SPLIT_STR('60-70','-',1) AND 
+                        profile.height <= SPLIT_STR('60-70','-',2) AND profile.gender != 'undefined' AND profile.userId != 9 AND profile.status = 'ACTIVE'
+INFO - 2021-11-05 01:21:15 --> Curated Query = SELECT
+                            profile.profileId,
+                            profile.profileNumber,
+                            profile.userId,
+                            profile.firstName,
+                            profile.lastName,
+                            CONCAT(
+                                profile.firstName,
+                                ' ',
+                                profile.lastName
+                            ) AS `fullName`,
+                            profile.gender,
+                            profile.dob,
+                            profile.height,
+                            profile.maritalStatus,
+                            profile.city,
+                            profile.state,
+                            profile.highestEducation,
+                            profile.occupation,
+                            profile.income,
+                            profile.desiredAgeGroup,
+                            profile.desiredHeight,
+                            profile.desiredMaritalStatus,
+                            profile.status,
+                            AGE_FROM_DOB(profile.dob) AS `age`,
+                            artifact.artifactId,
+                            artifact.avatarFileName
+                        FROM
+                            profile
+                        LEFT JOIN artifact ON profile.userId = artifact.userId
+                        WHERE AGE_FROM_DOB( profile.dob) >= SPLIT_STR('24-27','-',1) AND 
+                         AGE_FROM_DOB( profile.dob) <= SPLIT_STR('24-27','-',2) AND 'Single,Widowed,Divorced' 
+                        LIKE CONCAT('%',profile.maritalStatus,'%') AND profile.gender != 'undefined' AND profile.userId != 9 AND profile.status = 'ACTIVE'
+INFO - 2021-11-05 01:21:19 --> Curated Query = SELECT
+                            profile.profileId,
+                            profile.profileNumber,
+                            profile.userId,
+                            profile.firstName,
+                            profile.lastName,
+                            CONCAT(
+                                profile.firstName,
+                                ' ',
+                                profile.lastName
+                            ) AS `fullName`,
+                            profile.gender,
+                            profile.dob,
+                            profile.height,
+                            profile.maritalStatus,
+                            profile.city,
+                            profile.state,
+                            profile.highestEducation,
+                            profile.occupation,
+                            profile.income,
+                            profile.desiredAgeGroup,
+                            profile.desiredHeight,
+                            profile.desiredMaritalStatus,
+                            profile.status,
+                            AGE_FROM_DOB(profile.dob) AS `age`,
+                            artifact.artifactId,
+                            artifact.avatarFileName
+                        FROM
+                            profile
+                        LEFT JOIN artifact ON profile.userId = artifact.userId
+                        WHERE AGE_FROM_DOB( profile.dob) >= SPLIT_STR('24-27','-',1) AND 
+                         AGE_FROM_DOB( profile.dob) <= SPLIT_STR('24-27','-',2) AND 'Single,Widowed,Divorced' 
+                        LIKE CONCAT('%',profile.maritalStatus,'%') AND '' 
+                        LIKE CONCAT('%',profile.caste,'%') AND profile.gender != 'undefined' AND profile.userId != 9 AND profile.status = 'ACTIVE'
+INFO - 2021-11-05 01:21:24 --> Curated Query = SELECT
+                            profile.profileId,
+                            profile.profileNumber,
+                            profile.userId,
+                            profile.firstName,
+                            profile.lastName,
+                            CONCAT(
+                                profile.firstName,
+                                ' ',
+                                profile.lastName
+                            ) AS `fullName`,
+                            profile.gender,
+                            profile.dob,
+                            profile.height,
+                            profile.maritalStatus,
+                            profile.city,
+                            profile.state,
+                            profile.highestEducation,
+                            profile.occupation,
+                            profile.income,
+                            profile.desiredAgeGroup,
+                            profile.desiredHeight,
+                            profile.desiredMaritalStatus,
+                            profile.status,
+                            AGE_FROM_DOB(profile.dob) AS `age`,
+                            artifact.artifactId,
+                            artifact.avatarFileName
+                        FROM
+                            profile
+                        LEFT JOIN artifact ON profile.userId = artifact.userId
+                        WHERE AGE_FROM_DOB( profile.dob) >= SPLIT_STR('24-27','-',1) AND 
+                         AGE_FROM_DOB( profile.dob) <= SPLIT_STR('24-27','-',2) AND  profile.height >= SPLIT_STR('60-70','-',1) AND 
+                        profile.height <= SPLIT_STR('60-70','-',2) AND 'Single,Widowed,Divorced' 
+                        LIKE CONCAT('%',profile.maritalStatus,'%') AND '' 
+                        LIKE CONCAT('%',profile.caste,'%') AND profile.gender != 'undefined' AND profile.userId != 9 AND profile.status = 'ACTIVE'
+INFO - 2021-11-05 01:21:33 --> Curated Query = SELECT
+                            profile.profileId,
+                            profile.profileNumber,
+                            profile.userId,
+                            profile.firstName,
+                            profile.lastName,
+                            CONCAT(
+                                profile.firstName,
+                                ' ',
+                                profile.lastName
+                            ) AS `fullName`,
+                            profile.gender,
+                            profile.dob,
+                            profile.height,
+                            profile.maritalStatus,
+                            profile.city,
+                            profile.state,
+                            profile.highestEducation,
+                            profile.occupation,
+                            profile.income,
+                            profile.desiredAgeGroup,
+                            profile.desiredHeight,
+                            profile.desiredMaritalStatus,
+                            profile.status,
+                            AGE_FROM_DOB(profile.dob) AS `age`,
+                            artifact.artifactId,
+                            artifact.avatarFileName
+                        FROM
+                            profile
+                        LEFT JOIN artifact ON profile.userId = artifact.userId
+                        WHERE AGE_FROM_DOB( profile.dob) >= SPLIT_STR('24-27','-',1) AND 
+                         AGE_FROM_DOB( profile.dob) <= SPLIT_STR('24-27','-',2) AND  profile.height >= SPLIT_STR('60-70','-',1) AND 
+                        profile.height <= SPLIT_STR('60-70','-',2) AND profile.gender != 'undefined' AND profile.userId != 9 AND profile.status = 'ACTIVE'
+INFO - 2021-11-05 01:22:26 --> Curated Query = SELECT
+                            profile.profileId,
+                            profile.profileNumber,
+                            profile.userId,
+                            profile.firstName,
+                            profile.lastName,
+                            CONCAT(
+                                profile.firstName,
+                                ' ',
+                                profile.lastName
+                            ) AS `fullName`,
+                            profile.gender,
+                            profile.dob,
+                            profile.height,
+                            profile.maritalStatus,
+                            profile.city,
+                            profile.state,
+                            profile.highestEducation,
+                            profile.occupation,
+                            profile.income,
+                            profile.desiredAgeGroup,
+                            profile.desiredHeight,
+                            profile.desiredMaritalStatus,
+                            profile.status,
+                            AGE_FROM_DOB(profile.dob) AS `age`,
+                            artifact.artifactId,
+                            artifact.avatarFileName
+                        FROM
+                            profile
+                        LEFT JOIN artifact ON profile.userId = artifact.userId
+                        WHERE AGE_FROM_DOB( profile.dob) >= SPLIT_STR('24-27','-',1) AND 
+                         AGE_FROM_DOB( profile.dob) <= SPLIT_STR('24-27','-',2) AND  profile.height >= SPLIT_STR('60-70','-',1) AND 
+                        profile.height <= SPLIT_STR('60-70','-',2) AND profile.gender != 'undefined' AND profile.userId != 9 AND profile.status = 'ACTIVE'
+INFO - 2021-11-05 01:24:54 --> Curated Query = SELECT
+                            profile.profileId,
+                            profile.profileNumber,
+                            profile.userId,
+                            profile.firstName,
+                            profile.lastName,
+                            CONCAT(
+                                profile.firstName,
+                                ' ',
+                                profile.lastName
+                            ) AS `fullName`,
+                            profile.gender,
+                            profile.dob,
+                            profile.height,
+                            profile.maritalStatus,
+                            profile.city,
+                            profile.state,
+                            profile.highestEducation,
+                            profile.occupation,
+                            profile.income,
+                            profile.desiredAgeGroup,
+                            profile.desiredHeight,
+                            profile.desiredMaritalStatus,
+                            profile.status,
+                            AGE_FROM_DOB(profile.dob) AS `age`,
+                            artifact.artifactId,
+                            artifact.avatarFileName
+                        FROM
+                            profile
+                        LEFT JOIN artifact ON profile.userId = artifact.userId
+                        WHERE AGE_FROM_DOB( profile.dob) >= SPLIT_STR('24-27','-',1) AND 
+                         AGE_FROM_DOB( profile.dob) <= SPLIT_STR('24-27','-',2) AND  profile.height >= SPLIT_STR('60-70','-',1) AND 
+                        profile.height <= SPLIT_STR('60-70','-',2) AND profile.gender != 'undefined' AND profile.userId != 9 AND profile.status = 'ACTIVE'
+INFO - 2021-11-05 01:25:10 --> Curated Query = SELECT
+                            profile.profileId,
+                            profile.profileNumber,
+                            profile.userId,
+                            profile.firstName,
+                            profile.lastName,
+                            CONCAT(
+                                profile.firstName,
+                                ' ',
+                                profile.lastName
+                            ) AS `fullName`,
+                            profile.gender,
+                            profile.dob,
+                            profile.height,
+                            profile.maritalStatus,
+                            profile.city,
+                            profile.state,
+                            profile.highestEducation,
+                            profile.occupation,
+                            profile.income,
+                            profile.desiredAgeGroup,
+                            profile.desiredHeight,
+                            profile.desiredMaritalStatus,
+                            profile.status,
+                            AGE_FROM_DOB(profile.dob) AS `age`,
+                            artifact.artifactId,
+                            artifact.avatarFileName
+                        FROM
+                            profile
+                        LEFT JOIN artifact ON profile.userId = artifact.userId
+                        WHERE AGE_FROM_DOB( profile.dob) >= SPLIT_STR('24-27','-',1) AND 
+                         AGE_FROM_DOB( profile.dob) <= SPLIT_STR('24-27','-',2) AND profile.gender != 'undefined' AND profile.userId != 9 AND profile.status = 'ACTIVE'
+INFO - 2021-11-05 01:25:30 --> Curated Query = SELECT
+                            profile.profileId,
+                            profile.profileNumber,
+                            profile.userId,
+                            profile.firstName,
+                            profile.lastName,
+                            CONCAT(
+                                profile.firstName,
+                                ' ',
+                                profile.lastName
+                            ) AS `fullName`,
+                            profile.gender,
+                            profile.dob,
+                            profile.height,
+                            profile.maritalStatus,
+                            profile.city,
+                            profile.state,
+                            profile.highestEducation,
+                            profile.occupation,
+                            profile.income,
+                            profile.desiredAgeGroup,
+                            profile.desiredHeight,
+                            profile.desiredMaritalStatus,
+                            profile.status,
+                            AGE_FROM_DOB(profile.dob) AS `age`,
+                            artifact.artifactId,
+                            artifact.avatarFileName
+                        FROM
+                            profile
+                        LEFT JOIN artifact ON profile.userId = artifact.userId
+                        WHERE AGE_FROM_DOB( profile.dob) >= SPLIT_STR('24-27','-',1) AND 
+                         AGE_FROM_DOB( profile.dob) <= SPLIT_STR('24-27','-',2) AND  profile.height >= SPLIT_STR('60-70','-',1) AND 
+                        profile.height <= SPLIT_STR('60-70','-',2) AND profile.gender != 'undefined' AND profile.userId != 9 AND profile.status = 'ACTIVE'
+INFO - 2021-11-05 01:48:56 --> Token error: Firebase\JWT\ExpiredException: Expired token in C:\xampp\htdocs\sbatMatrimony\server\vendor\firebase\php-jwt\src\JWT.php:149
+Stack trace:
+#0 C:\xampp\htdocs\sbatMatrimony\server\app\Libraries\Apiserver.php(32): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1Q...', 'NklOUDFSNThVUXV...', Array)
+#1 C:\xampp\htdocs\sbatMatrimony\server\app\Controllers\RestApiBaseController.php(25): App\Libraries\Apiserver->validateToken('eyJ0eXAiOiJKV1Q...')
+#2 C:\xampp\htdocs\sbatMatrimony\server\app\Controllers\Interest.php(19): App\Controllers\RestApiBaseController->__construct()
+#3 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(908): App\Controllers\Interest->__construct()
+#4 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#5 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\sbatMatrimony\server\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+INFO - 2021-11-05 01:48:56 --> Token error: Firebase\JWT\ExpiredException: Expired token in C:\xampp\htdocs\sbatMatrimony\server\vendor\firebase\php-jwt\src\JWT.php:149
+Stack trace:
+#0 C:\xampp\htdocs\sbatMatrimony\server\app\Libraries\Apiserver.php(32): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1Q...', 'NklOUDFSNThVUXV...', Array)
+#1 C:\xampp\htdocs\sbatMatrimony\server\app\Controllers\RestApiBaseController.php(25): App\Libraries\Apiserver->validateToken('eyJ0eXAiOiJKV1Q...')
+#2 C:\xampp\htdocs\sbatMatrimony\server\app\Controllers\Listing.php(19): App\Controllers\RestApiBaseController->__construct()
+#3 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(908): App\Controllers\Listing->__construct()
+#4 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#5 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\sbatMatrimony\server\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+INFO - 2021-11-05 02:30:38 --> Token error: Firebase\JWT\ExpiredException: Expired token in C:\xampp\htdocs\sbatMatrimony\server\vendor\firebase\php-jwt\src\JWT.php:149
+Stack trace:
+#0 C:\xampp\htdocs\sbatMatrimony\server\app\Libraries\Apiserver.php(32): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1Q...', 'NklOUDFSNThVUXV...', Array)
+#1 C:\xampp\htdocs\sbatMatrimony\server\app\Controllers\RestApiBaseController.php(25): App\Libraries\Apiserver->validateToken('eyJ0eXAiOiJKV1Q...')
+#2 C:\xampp\htdocs\sbatMatrimony\server\app\Controllers\Interest.php(19): App\Controllers\RestApiBaseController->__construct()
+#3 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(908): App\Controllers\Interest->__construct()
+#4 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#5 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\sbatMatrimony\server\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+INFO - 2021-11-05 02:30:38 --> Token error: Firebase\JWT\ExpiredException: Expired token in C:\xampp\htdocs\sbatMatrimony\server\vendor\firebase\php-jwt\src\JWT.php:149
+Stack trace:
+#0 C:\xampp\htdocs\sbatMatrimony\server\app\Libraries\Apiserver.php(32): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1Q...', 'NklOUDFSNThVUXV...', Array)
+#1 C:\xampp\htdocs\sbatMatrimony\server\app\Controllers\RestApiBaseController.php(25): App\Libraries\Apiserver->validateToken('eyJ0eXAiOiJKV1Q...')
+#2 C:\xampp\htdocs\sbatMatrimony\server\app\Controllers\Profile.php(19): App\Controllers\RestApiBaseController->__construct()
+#3 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(908): App\Controllers\Profile->__construct()
+#4 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#5 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\sbatMatrimony\server\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+INFO - 2021-11-05 02:30:53 --> Token error: UnexpectedValueException: Wrong number of segments in C:\xampp\htdocs\sbatMatrimony\server\vendor\firebase\php-jwt\src\JWT.php:88
+Stack trace:
+#0 C:\xampp\htdocs\sbatMatrimony\server\app\Libraries\Apiserver.php(32): Firebase\JWT\JWT::decode('null', 'NklOUDFSNThVUXV...', Array)
+#1 C:\xampp\htdocs\sbatMatrimony\server\app\Controllers\RestApiBaseController.php(25): App\Libraries\Apiserver->validateToken('null')
+#2 C:\xampp\htdocs\sbatMatrimony\server\app\Controllers\Profile.php(19): App\Controllers\RestApiBaseController->__construct()
+#3 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(908): App\Controllers\Profile->__construct()
+#4 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#5 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\sbatMatrimony\server\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+INFO - 2021-11-05 02:30:53 --> Token error: UnexpectedValueException: Wrong number of segments in C:\xampp\htdocs\sbatMatrimony\server\vendor\firebase\php-jwt\src\JWT.php:88
+Stack trace:
+#0 C:\xampp\htdocs\sbatMatrimony\server\app\Libraries\Apiserver.php(32): Firebase\JWT\JWT::decode('null', 'NklOUDFSNThVUXV...', Array)
+#1 C:\xampp\htdocs\sbatMatrimony\server\app\Controllers\RestApiBaseController.php(25): App\Libraries\Apiserver->validateToken('null')
+#2 C:\xampp\htdocs\sbatMatrimony\server\app\Controllers\Interest.php(19): App\Controllers\RestApiBaseController->__construct()
+#3 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(908): App\Controllers\Interest->__construct()
+#4 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#5 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\sbatMatrimony\server\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+INFO - 2021-11-05 04:58:33 --> Token error: Firebase\JWT\ExpiredException: Expired token in C:\xampp\htdocs\sbatMatrimony\server\vendor\firebase\php-jwt\src\JWT.php:149
+Stack trace:
+#0 C:\xampp\htdocs\sbatMatrimony\server\app\Libraries\Apiserver.php(32): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1Q...', 'NklOUDFSNThVUXV...', Array)
+#1 C:\xampp\htdocs\sbatMatrimony\server\app\Controllers\RestApiBaseController.php(25): App\Libraries\Apiserver->validateToken('eyJ0eXAiOiJKV1Q...')
+#2 C:\xampp\htdocs\sbatMatrimony\server\app\Controllers\Interest.php(19): App\Controllers\RestApiBaseController->__construct()
+#3 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(908): App\Controllers\Interest->__construct()
+#4 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#5 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\sbatMatrimony\server\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+INFO - 2021-11-05 04:58:33 --> Token error: Firebase\JWT\ExpiredException: Expired token in C:\xampp\htdocs\sbatMatrimony\server\vendor\firebase\php-jwt\src\JWT.php:149
+Stack trace:
+#0 C:\xampp\htdocs\sbatMatrimony\server\app\Libraries\Apiserver.php(32): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1Q...', 'NklOUDFSNThVUXV...', Array)
+#1 C:\xampp\htdocs\sbatMatrimony\server\app\Controllers\RestApiBaseController.php(25): App\Libraries\Apiserver->validateToken('eyJ0eXAiOiJKV1Q...')
+#2 C:\xampp\htdocs\sbatMatrimony\server\app\Controllers\Profile.php(19): App\Controllers\RestApiBaseController->__construct()
+#3 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(908): App\Controllers\Profile->__construct()
+#4 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#5 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\sbatMatrimony\server\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+INFO - 2021-11-05 05:58:22 --> Token error: Firebase\JWT\ExpiredException: Expired token in C:\xampp\htdocs\sbatMatrimony\server\vendor\firebase\php-jwt\src\JWT.php:149
+Stack trace:
+#0 C:\xampp\htdocs\sbatMatrimony\server\app\Libraries\Apiserver.php(32): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1Q...', 'NklOUDFSNThVUXV...', Array)
+#1 C:\xampp\htdocs\sbatMatrimony\server\app\Controllers\RestApiBaseController.php(25): App\Libraries\Apiserver->validateToken('eyJ0eXAiOiJKV1Q...')
+#2 C:\xampp\htdocs\sbatMatrimony\server\app\Controllers\Profile.php(19): App\Controllers\RestApiBaseController->__construct()
+#3 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(908): App\Controllers\Profile->__construct()
+#4 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#5 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\sbatMatrimony\server\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+INFO - 2021-11-05 05:58:22 --> Token error: Firebase\JWT\ExpiredException: Expired token in C:\xampp\htdocs\sbatMatrimony\server\vendor\firebase\php-jwt\src\JWT.php:149
+Stack trace:
+#0 C:\xampp\htdocs\sbatMatrimony\server\app\Libraries\Apiserver.php(32): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1Q...', 'NklOUDFSNThVUXV...', Array)
+#1 C:\xampp\htdocs\sbatMatrimony\server\app\Controllers\RestApiBaseController.php(25): App\Libraries\Apiserver->validateToken('eyJ0eXAiOiJKV1Q...')
+#2 C:\xampp\htdocs\sbatMatrimony\server\app\Controllers\Interest.php(19): App\Controllers\RestApiBaseController->__construct()
+#3 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(908): App\Controllers\Interest->__construct()
+#4 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#5 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\sbatMatrimony\server\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+INFO - 2021-11-05 05:58:32 --> Token error: UnexpectedValueException: Wrong number of segments in C:\xampp\htdocs\sbatMatrimony\server\vendor\firebase\php-jwt\src\JWT.php:88
+Stack trace:
+#0 C:\xampp\htdocs\sbatMatrimony\server\app\Libraries\Apiserver.php(32): Firebase\JWT\JWT::decode('null', 'NklOUDFSNThVUXV...', Array)
+#1 C:\xampp\htdocs\sbatMatrimony\server\app\Controllers\RestApiBaseController.php(25): App\Libraries\Apiserver->validateToken('null')
+#2 C:\xampp\htdocs\sbatMatrimony\server\app\Controllers\Profile.php(19): App\Controllers\RestApiBaseController->__construct()
+#3 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(908): App\Controllers\Profile->__construct()
+#4 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#5 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\sbatMatrimony\server\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+INFO - 2021-11-05 06:29:47 --> Token error: Firebase\JWT\ExpiredException: Expired token in C:\xampp\htdocs\sbatMatrimony\server\vendor\firebase\php-jwt\src\JWT.php:149
+Stack trace:
+#0 C:\xampp\htdocs\sbatMatrimony\server\app\Libraries\Apiserver.php(32): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1Q...', 'NklOUDFSNThVUXV...', Array)
+#1 C:\xampp\htdocs\sbatMatrimony\server\app\Controllers\RestApiBaseController.php(25): App\Libraries\Apiserver->validateToken('eyJ0eXAiOiJKV1Q...')
+#2 C:\xampp\htdocs\sbatMatrimony\server\app\Controllers\Profile.php(19): App\Controllers\RestApiBaseController->__construct()
+#3 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(908): App\Controllers\Profile->__construct()
+#4 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#5 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\sbatMatrimony\server\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+INFO - 2021-11-05 06:29:47 --> Token error: Firebase\JWT\ExpiredException: Expired token in C:\xampp\htdocs\sbatMatrimony\server\vendor\firebase\php-jwt\src\JWT.php:149
+Stack trace:
+#0 C:\xampp\htdocs\sbatMatrimony\server\app\Libraries\Apiserver.php(32): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1Q...', 'NklOUDFSNThVUXV...', Array)
+#1 C:\xampp\htdocs\sbatMatrimony\server\app\Controllers\RestApiBaseController.php(25): App\Libraries\Apiserver->validateToken('eyJ0eXAiOiJKV1Q...')
+#2 C:\xampp\htdocs\sbatMatrimony\server\app\Controllers\Interest.php(19): App\Controllers\RestApiBaseController->__construct()
+#3 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(908): App\Controllers\Interest->__construct()
+#4 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#5 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\sbatMatrimony\server\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+INFO - 2021-11-05 06:30:57 --> Token error: Firebase\JWT\ExpiredException: Expired token in C:\xampp\htdocs\sbatMatrimony\server\vendor\firebase\php-jwt\src\JWT.php:149
+Stack trace:
+#0 C:\xampp\htdocs\sbatMatrimony\server\app\Libraries\Apiserver.php(32): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1Q...', 'NklOUDFSNThVUXV...', Array)
+#1 C:\xampp\htdocs\sbatMatrimony\server\app\Controllers\RestApiBaseController.php(25): App\Libraries\Apiserver->validateToken('eyJ0eXAiOiJKV1Q...')
+#2 C:\xampp\htdocs\sbatMatrimony\server\app\Controllers\Profile.php(19): App\Controllers\RestApiBaseController->__construct()
+#3 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(908): App\Controllers\Profile->__construct()
+#4 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#5 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\sbatMatrimony\server\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+INFO - 2021-11-05 06:30:57 --> Token error: Firebase\JWT\ExpiredException: Expired token in C:\xampp\htdocs\sbatMatrimony\server\vendor\firebase\php-jwt\src\JWT.php:149
+Stack trace:
+#0 C:\xampp\htdocs\sbatMatrimony\server\app\Libraries\Apiserver.php(32): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1Q...', 'NklOUDFSNThVUXV...', Array)
+#1 C:\xampp\htdocs\sbatMatrimony\server\app\Controllers\RestApiBaseController.php(25): App\Libraries\Apiserver->validateToken('eyJ0eXAiOiJKV1Q...')
+#2 C:\xampp\htdocs\sbatMatrimony\server\app\Controllers\Interest.php(19): App\Controllers\RestApiBaseController->__construct()
+#3 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(908): App\Controllers\Interest->__construct()
+#4 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#5 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\sbatMatrimony\server\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-11-05 06:49:22 --> syntax error, unexpected variable "$form_array"
+#0 C:\xampp\htdocs\sbatMatrimony\server\system\Router\Router.php(170): CodeIgniter\Router\Router->autoRoute('profile/getById')
+#1 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(816): CodeIgniter\Router\Router->handle('profile/getById')
+#2 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(385): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\sbatMatrimony\server\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-11-05 06:52:09 --> syntax error, unexpected variable "$form_array"
+#0 C:\xampp\htdocs\sbatMatrimony\server\system\Router\Router.php(170): CodeIgniter\Router\Router->autoRoute('profile/getById')
+#1 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(816): CodeIgniter\Router\Router->handle('profile/getById')
+#2 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(385): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\sbatMatrimony\server\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-11-05 06:52:21 --> syntax error, unexpected variable "$form_array"
+#0 C:\xampp\htdocs\sbatMatrimony\server\system\Router\Router.php(170): CodeIgniter\Router\Router->autoRoute('profile/save')
+#1 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(816): CodeIgniter\Router\Router->handle('profile/save')
+#2 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(385): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\sbatMatrimony\server\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-11-05 06:52:54 --> syntax error, unexpected variable "$form_array"
+#0 C:\xampp\htdocs\sbatMatrimony\server\system\Router\Router.php(170): CodeIgniter\Router\Router->autoRoute('profile/getById')
+#1 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(816): CodeIgniter\Router\Router->handle('profile/getById')
+#2 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(385): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\sbatMatrimony\server\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-11-05 06:53:03 --> syntax error, unexpected variable "$form_array"
+#0 C:\xampp\htdocs\sbatMatrimony\server\system\Router\Router.php(170): CodeIgniter\Router\Router->autoRoute('profile/getById')
+#1 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(816): CodeIgniter\Router\Router->handle('profile/getById')
+#2 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(385): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\sbatMatrimony\server\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-11-05 06:55:14 --> syntax error, unexpected variable "$form_array"
+#0 C:\xampp\htdocs\sbatMatrimony\server\system\Router\Router.php(170): CodeIgniter\Router\Router->autoRoute('profile/save')
+#1 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(816): CodeIgniter\Router\Router->handle('profile/save')
+#2 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(385): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\sbatMatrimony\server\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-11-05 06:55:34 --> syntax error, unexpected variable "$form_array"
+#0 C:\xampp\htdocs\sbatMatrimony\server\system\Router\Router.php(170): CodeIgniter\Router\Router->autoRoute('profile/avatar')
+#1 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(816): CodeIgniter\Router\Router->handle('profile/avatar')
+#2 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(385): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\sbatMatrimony\server\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-11-05 06:55:48 --> syntax error, unexpected variable "$form_array"
+#0 C:\xampp\htdocs\sbatMatrimony\server\system\Router\Router.php(170): CodeIgniter\Router\Router->autoRoute('profile/avatar')
+#1 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(816): CodeIgniter\Router\Router->handle('profile/avatar')
+#2 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(385): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\sbatMatrimony\server\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-11-05 06:56:01 --> syntax error, unexpected variable "$form_array"
+#0 C:\xampp\htdocs\sbatMatrimony\server\system\Router\Router.php(170): CodeIgniter\Router\Router->autoRoute('profile/avatar')
+#1 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(816): CodeIgniter\Router\Router->handle('profile/avatar')
+#2 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(385): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\sbatMatrimony\server\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-11-05 06:56:09 --> syntax error, unexpected variable "$form_array"
+#0 C:\xampp\htdocs\sbatMatrimony\server\system\Router\Router.php(170): CodeIgniter\Router\Router->autoRoute('profile/save')
+#1 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(816): CodeIgniter\Router\Router->handle('profile/save')
+#2 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(385): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\sbatMatrimony\server\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-11-05 06:56:16 --> syntax error, unexpected variable "$form_array"
+#0 C:\xampp\htdocs\sbatMatrimony\server\system\Router\Router.php(170): CodeIgniter\Router\Router->autoRoute('profile/getById')
+#1 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(816): CodeIgniter\Router\Router->handle('profile/getById')
+#2 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(385): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\sbatMatrimony\server\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-11-05 06:57:22 --> syntax error, unexpected variable "$form_array"
+#0 C:\xampp\htdocs\sbatMatrimony\server\system\Router\Router.php(170): CodeIgniter\Router\Router->autoRoute('profile/getById')
+#1 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(816): CodeIgniter\Router\Router->handle('profile/getById')
+#2 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(385): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\sbatMatrimony\server\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-11-05 06:57:31 --> syntax error, unexpected variable "$form_array"
+#0 C:\xampp\htdocs\sbatMatrimony\server\system\Router\Router.php(170): CodeIgniter\Router\Router->autoRoute('profile/getById')
+#1 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(816): CodeIgniter\Router\Router->handle('profile/getById')
+#2 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(385): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\sbatMatrimony\server\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-11-05 06:57:49 --> syntax error, unexpected variable "$form_array"
+#0 C:\xampp\htdocs\sbatMatrimony\server\system\Router\Router.php(170): CodeIgniter\Router\Router->autoRoute('profile/save')
+#1 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(816): CodeIgniter\Router\Router->handle('profile/save')
+#2 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(385): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\sbatMatrimony\server\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-11-05 06:57:54 --> syntax error, unexpected variable "$form_array"
+#0 C:\xampp\htdocs\sbatMatrimony\server\system\Router\Router.php(170): CodeIgniter\Router\Router->autoRoute('profile/getById')
+#1 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(816): CodeIgniter\Router\Router->handle('profile/getById')
+#2 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(385): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\sbatMatrimony\server\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-11-05 07:00:00 --> syntax error, unexpected variable "$form_array"
+#0 C:\xampp\htdocs\sbatMatrimony\server\system\Router\Router.php(170): CodeIgniter\Router\Router->autoRoute('profile/getByPr...')
+#1 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(816): CodeIgniter\Router\Router->handle('profile/getByPr...')
+#2 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(385): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\sbatMatrimony\server\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-11-05 07:00:49 --> syntax error, unexpected variable "$form_array"
+#0 C:\xampp\htdocs\sbatMatrimony\server\system\Router\Router.php(170): CodeIgniter\Router\Router->autoRoute('profile/getByPr...')
+#1 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(816): CodeIgniter\Router\Router->handle('profile/getByPr...')
+#2 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(385): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\sbatMatrimony\server\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-11-05 07:01:27 --> syntax error, unexpected variable "$form_array"
+#0 C:\xampp\htdocs\sbatMatrimony\server\system\Router\Router.php(170): CodeIgniter\Router\Router->autoRoute('profile/getById')
+#1 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(816): CodeIgniter\Router\Router->handle('profile/getById')
+#2 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(385): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\sbatMatrimony\server\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-11-05 07:01:43 --> syntax error, unexpected variable "$form_array"
+#0 C:\xampp\htdocs\sbatMatrimony\server\system\Router\Router.php(170): CodeIgniter\Router\Router->autoRoute('profile/getById')
+#1 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(816): CodeIgniter\Router\Router->handle('profile/getById')
+#2 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(385): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\sbatMatrimony\server\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-11-05 07:01:44 --> syntax error, unexpected variable "$form_array"
+#0 C:\xampp\htdocs\sbatMatrimony\server\system\Router\Router.php(170): CodeIgniter\Router\Router->autoRoute('profile/getById')
+#1 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(816): CodeIgniter\Router\Router->handle('profile/getById')
+#2 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(385): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\sbatMatrimony\server\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-11-05 07:03:05 --> syntax error, unexpected variable "$form_array"
+#0 C:\xampp\htdocs\sbatMatrimony\server\system\Router\Router.php(170): CodeIgniter\Router\Router->autoRoute('profile/getById')
+#1 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(816): CodeIgniter\Router\Router->handle('profile/getById')
+#2 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(385): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\sbatMatrimony\server\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-11-05 07:03:07 --> syntax error, unexpected variable "$form_array"
+#0 C:\xampp\htdocs\sbatMatrimony\server\system\Router\Router.php(170): CodeIgniter\Router\Router->autoRoute('profile/getById')
+#1 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(816): CodeIgniter\Router\Router->handle('profile/getById')
+#2 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(385): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\sbatMatrimony\server\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-11-05 07:03:13 --> syntax error, unexpected variable "$form_array"
+#0 C:\xampp\htdocs\sbatMatrimony\server\system\Router\Router.php(170): CodeIgniter\Router\Router->autoRoute('profile/getById')
+#1 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(816): CodeIgniter\Router\Router->handle('profile/getById')
+#2 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(385): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\sbatMatrimony\server\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-11-05 07:03:20 --> syntax error, unexpected variable "$form_array"
+#0 C:\xampp\htdocs\sbatMatrimony\server\system\Router\Router.php(170): CodeIgniter\Router\Router->autoRoute('profile/getByPr...')
+#1 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(816): CodeIgniter\Router\Router->handle('profile/getByPr...')
+#2 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(385): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\sbatMatrimony\server\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-11-05 07:03:59 --> syntax error, unexpected variable "$form_array"
+#0 C:\xampp\htdocs\sbatMatrimony\server\system\Router\Router.php(170): CodeIgniter\Router\Router->autoRoute('profile/getById')
+#1 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(816): CodeIgniter\Router\Router->handle('profile/getById')
+#2 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(385): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\sbatMatrimony\server\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-11-05 07:04:06 --> syntax error, unexpected variable "$form_array"
+#0 C:\xampp\htdocs\sbatMatrimony\server\system\Router\Router.php(170): CodeIgniter\Router\Router->autoRoute('profile/getById')
+#1 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(816): CodeIgniter\Router\Router->handle('profile/getById')
+#2 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(385): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\sbatMatrimony\server\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-11-05 07:04:49 --> syntax error, unexpected variable "$form_array"
+#0 C:\xampp\htdocs\sbatMatrimony\server\system\Router\Router.php(170): CodeIgniter\Router\Router->autoRoute('profile/save')
+#1 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(816): CodeIgniter\Router\Router->handle('profile/save')
+#2 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(385): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\sbatMatrimony\server\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-11-05 07:05:02 --> syntax error, unexpected variable "$form_array"
+#0 C:\xampp\htdocs\sbatMatrimony\server\system\Router\Router.php(170): CodeIgniter\Router\Router->autoRoute('profile/save')
+#1 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(816): CodeIgniter\Router\Router->handle('profile/save')
+#2 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(385): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\sbatMatrimony\server\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+INFO - 2021-11-05 07:42:40 --> Token error: Firebase\JWT\ExpiredException: Expired token in C:\xampp\htdocs\sbatMatrimony\server\vendor\firebase\php-jwt\src\JWT.php:149
+Stack trace:
+#0 C:\xampp\htdocs\sbatMatrimony\server\app\Libraries\Apiserver.php(32): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1Q...', 'NklOUDFSNThVUXV...', Array)
+#1 C:\xampp\htdocs\sbatMatrimony\server\app\Controllers\RestApiBaseController.php(25): App\Libraries\Apiserver->validateToken('eyJ0eXAiOiJKV1Q...')
+#2 C:\xampp\htdocs\sbatMatrimony\server\app\Controllers\Interest.php(19): App\Controllers\RestApiBaseController->__construct()
+#3 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(908): App\Controllers\Interest->__construct()
+#4 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#5 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\sbatMatrimony\server\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+INFO - 2021-11-05 07:42:40 --> Token error: Firebase\JWT\ExpiredException: Expired token in C:\xampp\htdocs\sbatMatrimony\server\vendor\firebase\php-jwt\src\JWT.php:149
+Stack trace:
+#0 C:\xampp\htdocs\sbatMatrimony\server\app\Libraries\Apiserver.php(32): Firebase\JWT\JWT::decode('eyJ0eXAiOiJKV1Q...', 'NklOUDFSNThVUXV...', Array)
+#1 C:\xampp\htdocs\sbatMatrimony\server\app\Controllers\RestApiBaseController.php(25): App\Libraries\Apiserver->validateToken('eyJ0eXAiOiJKV1Q...')
+#2 C:\xampp\htdocs\sbatMatrimony\server\app\Controllers\Profile.php(19): App\Controllers\RestApiBaseController->__construct()
+#3 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(908): App\Controllers\Profile->__construct()
+#4 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#5 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\sbatMatrimony\server\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+INFO - 2021-11-05 09:23:03 --> Token error: UnexpectedValueException: Wrong number of segments in C:\xampp\htdocs\sbatMatrimony\server\vendor\firebase\php-jwt\src\JWT.php:88
+Stack trace:
+#0 C:\xampp\htdocs\sbatMatrimony\server\app\Libraries\Apiserver.php(32): Firebase\JWT\JWT::decode('null', 'NklOUDFSNThVUXV...', Array)
+#1 C:\xampp\htdocs\sbatMatrimony\server\app\Controllers\RestApiBaseController.php(25): App\Libraries\Apiserver->validateToken('null')
+#2 C:\xampp\htdocs\sbatMatrimony\server\app\Controllers\Profile.php(19): App\Controllers\RestApiBaseController->__construct()
+#3 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(908): App\Controllers\Profile->__construct()
+#4 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#5 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\sbatMatrimony\server\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+INFO - 2021-11-05 09:23:03 --> Token error: UnexpectedValueException: Wrong number of segments in C:\xampp\htdocs\sbatMatrimony\server\vendor\firebase\php-jwt\src\JWT.php:88
+Stack trace:
+#0 C:\xampp\htdocs\sbatMatrimony\server\app\Libraries\Apiserver.php(32): Firebase\JWT\JWT::decode('null', 'NklOUDFSNThVUXV...', Array)
+#1 C:\xampp\htdocs\sbatMatrimony\server\app\Controllers\RestApiBaseController.php(25): App\Libraries\Apiserver->validateToken('null')
+#2 C:\xampp\htdocs\sbatMatrimony\server\app\Controllers\Interest.php(19): App\Controllers\RestApiBaseController->__construct()
+#3 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(908): App\Controllers\Interest->__construct()
+#4 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#5 C:\xampp\htdocs\sbatMatrimony\server\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\sbatMatrimony\server\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}

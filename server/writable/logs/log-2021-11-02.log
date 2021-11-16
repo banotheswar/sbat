@@ -1,0 +1,4 @@
+CRITICAL - 2021-11-02 07:43:41 --> Call to undefined function CodeIgniter\locale_set_default()
+#0 C:\xampp\htdocs\sbatMatrimony\server\system\bootstrap.php(159): CodeIgniter\CodeIgniter->initialize()
+#1 C:\xampp\htdocs\sbatMatrimony\server\index.php(35): require('C:\\xampp\\htdocs...')
+#2 {main}
